@@ -1,0 +1,89 @@
+# ---- 固件 / 镜像 / 容器 ----
+*.bin
+*.img
+*.dat
+*.tar
+*.tar.gz
+*.tgz
+*.gz
+*.zip
+*.7z
+*.qcow2
+*.dmg
+*.ipa
+*.apk
+*.exe
+*.msi
+*.iso
+*.ufu
+*.fdat
+*.sdm
+*.sum
+*.crc
+nflasha*
+emmc.img
+BODYDATA.DAT
+
+# ---- 二进制 / 目标文件 ----
+*.so
+*.so.*
+*.ko
+*.elf
+*.o
+*.a
+*.dll
+*.dylib
+*.pyc
+*.pyo
+__pycache__/
+*.class
+
+# ---- 运行日志与原始输出 ----
+*.log
+serial.log
+stderr.log
+*_out.txt
+probe-out*.txt
+scan_out.txt
+allset_out.txt
+read_logs_out.txt
+install_etc_out.txt
+cleanup*_out.txt
+
+# ---- 密钥 / 凭据 ----
+*.key
+*.pem
+*.p12
+*.pfx
+*secret*
+*credential*
+keys.txt
+key_*.txt
+
+# ---- 固件解包树（如本地重建） ----
+a6600_fw/
+zv1m2_fw/
+zve10_fw/
+qemu_in/
+extracted/
+part_image/
+*firmware*/
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+
+# ---- 构建暂存 ----
+_safe_repo_build/
+build_out/
+patched/
+
+# ---- 本地临时 ----
+tmp_*.py
+tmp_*.md
+.cache/
