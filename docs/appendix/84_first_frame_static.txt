@@ -1,0 +1,728 @@
+
+=== GraphicsEngine::updateResource@plt @ 0x001041d4 size=0x10 ===
+outside .text
+
+=== _ZN20LayoutableWidgetBase18activeWidgetUpdateEv @ 0x004125aa size=0x6 ===
+004125aa  80b5       push     {r7, lr}
+004125ac  00af       add      r7, sp, #0
+004125ae  80bd       pop      {r7, pc}
+-- direct callers --
+(none found in .text direct calls)
+
+=== _ZN20LayoutableWidgetBase12widgetUpdateEv @ 0x00412850 size=0x18 ===
+00412850  0368       ldr      r3, [r0]
+00412852  b0b5       push     {r4, r5, r7, lr}
+00412854  00af       add      r7, sp, #0
+00412856  d3f83831   ldr.w    r3, [r3, #0x138]
+0041285a  0446       mov      r4, r0
+0041285c  9847       blx      r3
+0041285e  2046       mov      r0, r4
+00412860  bde8b040   pop.w    {r4, r5, r7, lr}
+00412864  ecf72fbc   b.w      #0x3ff0c6
+-- direct callers --
+(none found in .text direct calls)
+
+=== dirty queue predicate/helper @ 0x00412d50 size=0x100 ===
+00412d50  80b5       push     {r7, lr}
+00412d52  00af       add      r7, sp, #0
+00412d54  bde88040   pop.w    {r7, lr}
+00412d58  fff7f2bf   b.w      #0x412d40
+00412d5c  80b5       push     {r7, lr}
+00412d5e  00af       add      r7, sp, #0
+00412d60  4069       ldr      r0, [r0, #0x14]
+00412d62  80bd       pop      {r7, pc}
+00412d64  80b5       push     {r7, lr}
+00412d66  00af       add      r7, sp, #0
+00412d68  bde88040   pop.w    {r7, lr}
+00412d6c  fff7f6bf   b.w      #0x412d5c
+00412d70  80b5       push     {r7, lr}
+00412d72  00af       add      r7, sp, #0
+00412d74  c068       ldr      r0, [r0, #0xc]
+00412d76  80bd       pop      {r7, pc}
+00412d78  80b5       push     {r7, lr}
+00412d7a  00af       add      r7, sp, #0
+00412d7c  8068       ldr      r0, [r0, #8]
+00412d7e  80bd       pop      {r7, pc}
+00412d80  80b5       push     {r7, lr}
+00412d82  00af       add      r7, sp, #0
+00412d84  0160       str      r1, [r0]
+00412d86  80bd       pop      {r7, pc}
+00412d88  80b5       push     {r7, lr}
+00412d8a  82b0       sub      sp, #8
+00412d8c  00af       add      r7, sp, #0
+00412d8e  011d       adds     r1, r0, #4
+00412d90  381d       adds     r0, r7, #4
+00412d92  fff7f5ff   bl       #0x412d80
+00412d96  7868       ldr      r0, [r7, #4]
+00412d98  07f10807   add.w    r7, r7, #8
+00412d9c  bd46       mov      sp, r7
+00412d9e  80bd       pop      {r7, pc}
+00412da0  80b5       push     {r7, lr}
+00412da2  00af       add      r7, sp, #0
+00412da4  fff7f0ff   bl       #0x412d88
+00412da8  80bd       pop      {r7, pc}
+00412daa  80b5       push     {r7, lr}
+00412dac  82b0       sub      sp, #8
+00412dae  0346       mov      r3, r0
+00412db0  00af       add      r7, sp, #0
+00412db2  381d       adds     r0, r7, #4
+00412db4  d968       ldr      r1, [r3, #0xc]
+00412db6  fff7e3ff   bl       #0x412d80
+00412dba  7868       ldr      r0, [r7, #4]
+00412dbc  07f10807   add.w    r7, r7, #8
+00412dc0  bd46       mov      sp, r7
+00412dc2  80bd       pop      {r7, pc}
+00412dc4  80b5       push     {r7, lr}
+00412dc6  00af       add      r7, sp, #0
+00412dc8  fff7efff   bl       #0x412daa
+00412dcc  80bd       pop      {r7, pc}
+00412dce  80b5       push     {r7, lr}
+00412dd0  0430       adds     r0, #4
+00412dd2  00af       add      r7, sp, #0
+00412dd4  80bd       pop      {r7, pc}
+00412dd6  80b5       push     {r7, lr}
+00412dd8  0846       mov      r0, r1
+00412dda  00af       add      r7, sp, #0
+00412ddc  80bd       pop      {r7, pc}
+00412dde  0368       ldr      r3, [r0]
+00412de0  0868       ldr      r0, [r1]
+00412de2  80b5       push     {r7, lr}
+00412de4  1b1a       subs     r3, r3, r0
+00412de6  5842       rsbs     r0, r3, #0
+00412de8  00af       add      r7, sp, #0
+00412dea  40eb0300   adc.w    r0, r0, r3
+00412dee  80bd       pop      {r7, pc}
+00412df0  0968       ldr      r1, [r1]
+00412df2  1278       ldrb     r2, [r2]
+00412df4  80b5       push     {r7, lr}
+00412df6  00af       add      r7, sp, #0
+00412df8  0160       str      r1, [r0]
+00412dfa  0271       strb     r2, [r0, #4]
+00412dfc  80bd       pop      {r7, pc}
+00412dfe  98b5       push     {r3, r4, r7, lr}
+00412e00  0446       mov      r4, r0
+00412e02  00af       add      r7, sp, #0
+00412e04  0068       ldr      r0, [r0]
+00412e06  f0f458ec   blx      #0x1036b8
+00412e0a  2060       str      r0, [r4]
+00412e0c  2046       mov      r0, r4
+00412e0e  98bd       pop      {r3, r4, r7, pc}
+00412e10  80b5       push     {r7, lr}
+00412e12  0c30       adds     r0, #0xc
+00412e14  00af       add      r7, sp, #0
+00412e16  80bd       pop      {r7, pc}
+00412e18  80b5       push     {r7, lr}
+00412e1a  0830       adds     r0, #8
+00412e1c  00af       add      r7, sp, #0
+00412e1e  80bd       pop      {r7, pc}
+00412e20  80b5       push     {r7, lr}
+00412e22  1030       adds     r0, #0x10
+00412e24  00af       add      r7, sp, #0
+00412e26  80bd       pop      {r7, pc}
+00412e28  0023       movs     r3, #0
+00412e2a  4360       str      r3, [r0, #4]
+00412e2c  80b5       push     {r7, lr}
+00412e2e  00af       add      r7, sp, #0
+00412e30  8360       str      r3, [r0, #8]
+00412e32  031d       adds     r3, r0, #4
+00412e34  c360       str      r3, [r0, #0xc]
+00412e36  0361       str      r3, [r0, #0x10]
+00412e38  80bd       pop      {r7, pc}
+00412e3a  98b5       push     {r3, r4, r7, lr}
+00412e3c  0446       mov      r4, r0
+00412e3e  00af       add      r7, sp, #0
+00412e40  0021       movs     r1, #0
+00412e42  1022       movs     r2, #0x10
+00412e44  0430       adds     r0, #4
+00412e46  edf44ee8   blx      #0xffee4
+00412e4a  0023       movs     r3, #0
+00412e4c  2046       mov      r0, r4
+00412e4e  6361       str      r3, [r4, #0x14]
+-- direct callers --
+(none found in .text direct calls)
+
+=== _ZN20LayoutableWidgetBase21activeWidgetUpdateAllERSt3mapImP5EventSt4lessImESaISt4pairIKmS2_EEE @ 0x00412f6c size=0x114 ===
+00412f6c  b0b5       push     {r4, r5, r7, lr}
+00412f6e  0d46       mov      r5, r1
+00412f70  4049       ldr      r1, [pc, #0x100]
+00412f72  8ab0       sub      sp, #0x28
+00412f74  0446       mov      r4, r0
+00412f76  7944       add      r1, pc
+00412f78  04af       add      r7, sp, #0x10
+00412f7a  91f90030   ldrsb.w  r3, [r1]
+00412f7e  b3f1ff3f   cmp.w    r3, #-1
+00412f82  02d1       bne      #0x412f8a
+00412f84  3948       ldr      r0, [pc, #0xe4]
+00412f86  ecf474e8   blx      #0xff070
+00412f8a  394b       ldr      r3, [pc, #0xe4]
+00412f8c  07f11801   add.w    r1, r7, #0x18
+00412f90  2846       mov      r0, r5
+00412f92  41f8083d   str      r3, [r1, #-0x8]!
+00412f96  fff7e3ff   bl       #0x412f60
+00412f9a  7861       str      r0, [r7, #0x14]
+00412f9c  2846       mov      r0, r5
+00412f9e  fff7fffe   bl       #0x412da0
+00412fa2  07f10c01   add.w    r1, r7, #0xc
+00412fa6  f860       str      r0, [r7, #0xc]
+00412fa8  07f11400   add.w    r0, r7, #0x14
+00412fac  fff708fe   bl       #0x412bc0
+00412fb0  f8b1       cbz      r0, #0x412ff2
+00412fb2  07f11400   add.w    r0, r7, #0x14
+00412fb6  fff70bfe   bl       #0x412bd0
+00412fba  4368       ldr      r3, [r0, #4]
+00412fbc  c4f87431   str.w    r3, [r4, #0x174]
+00412fc0  2d4b       ldr      r3, [pc, #0xb4]
+00412fc2  7b44       add      r3, pc
+00412fc4  93f90030   ldrsb.w  r3, [r3]
+00412fc8  012b       cmp      r3, #1
+00412fca  0ed1       bne      #0x412fea
+00412fcc  07f11400   add.w    r0, r7, #0x14
+00412fd0  fff7fefd   bl       #0x412bd0
+00412fd4  0021       movs     r1, #0
+00412fd6  0a46       mov      r2, r1
+00412fd8  0368       ldr      r3, [r0]
+00412fda  2046       mov      r0, r4
+00412fdc  0191       str      r1, [sp, #4]
+00412fde  0291       str      r1, [sp, #8]
+00412fe0  0093       str      r3, [sp]
+00412fe2  4ff4ee73   mov.w    r3, #0x1dc
+00412fe6  ecf406e9   blx      #0xff1f4
+00412fea  2046       mov      r0, r4
+00412fec  fff724fd   bl       #0x412a38
+00412ff0  35e0       b        #0x41305e
+00412ff2  04f5c475   add.w    r5, r4, #0x188
+00412ff6  2846       mov      r0, r5
+00412ff8  fff7e4fe   bl       #0x412dc4
+00412ffc  b860       str      r0, [r7, #8]
+00412ffe  2846       mov      r0, r5
+00413000  fff7cefe   bl       #0x412da0
+00413004  7860       str      r0, [r7, #4]
+00413006  23e0       b        #0x413050
+00413008  07f10800   add.w    r0, r7, #8
+0041300c  fff7e0fd   bl       #0x412bd0
+00413010  4368       ldr      r3, [r0, #4]
+00413012  c4f87431   str.w    r3, [r4, #0x174]
+00413016  194b       ldr      r3, [pc, #0x64]
+00413018  7b44       add      r3, pc
+0041301a  93f90030   ldrsb.w  r3, [r3]
+0041301e  012b       cmp      r3, #1
+00413020  0ed1       bne      #0x413040
+00413022  07f10800   add.w    r0, r7, #8
+00413026  fff7d3fd   bl       #0x412bd0
+0041302a  0021       movs     r1, #0
+0041302c  0a46       mov      r2, r1
+0041302e  0368       ldr      r3, [r0]
+00413030  2046       mov      r0, r4
+00413032  0191       str      r1, [sp, #4]
+00413034  0291       str      r1, [sp, #8]
+00413036  0093       str      r3, [sp]
+00413038  40f2e713   movw     r3, #0x1e7
+0041303c  ecf4dae8   blx      #0xff1f4
+00413040  2046       mov      r0, r4
+00413042  fff7f9fc   bl       #0x412a38
+00413046  07f10800   add.w    r0, r7, #8
+0041304a  0021       movs     r1, #0
+0041304c  fff7c5fd   bl       #0x412bda
+00413050  07f10800   add.w    r0, r7, #8
+00413054  391d       adds     r1, r7, #4
+00413056  fff7b3fd   bl       #0x412bc0
+0041305a  0028       cmp      r0, #0
+0041305c  d4d1       bne      #0x413008
+0041305e  0023       movs     r3, #0
+00413060  c4f87431   str.w    r3, [r4, #0x174]
+00413064  07f11807   add.w    r7, r7, #0x18
+00413068  bd46       mov      sp, r7
+0041306a  b0bd       pop      {r4, r5, r7, pc}
+0041306c  4017       asrs     r0, r0, #0x1d
+0041306e  0701       lsls     r7, r0, #4
+00413070  0440       ands     r4, r0
+00413072  0111       asrs     r1, r0, #4
+00413074  be5a       ldrh     r6, [r7, r2]
+00413076  f700       lsls     r7, r6, #3
+00413078  725a       ldrh     r2, [r6, r1]
+0041307a  f700       lsls     r7, r6, #3
+0041307c  1c5a       ldrh     r4, [r3, r0]
+0041307e  f700       lsls     r7, r6, #3
+-- direct callers --
+(none found in .text direct calls)
+
+=== _ZN20LayoutableWidgetBase16handleDirtyEventEv @ 0x004130d2 size=0x60 ===
+004130d2  f0b5       push     {r4, r5, r6, r7, lr}
+004130d4  00f5c476   add.w    r6, r0, #0x188
+004130d8  83b0       sub      sp, #0xc
+004130da  0446       mov      r4, r0
+004130dc  3046       mov      r0, r6
+004130de  00af       add      r7, sp, #0
+004130e0  fff736fe   bl       #0x412d50
+004130e4  08bb       cbnz     r0, #0x41312a
+004130e6  3046       mov      r0, r6
+004130e8  07f10805   add.w    r5, r7, #8
+004130ec  fff76afe   bl       #0x412dc4
+004130f0  45f8040d   str      r0, [r5, #-0x4]!
+004130f4  2846       mov      r0, r5
+004130f6  fff76bfd   bl       #0x412bd0
+004130fa  4368       ldr      r3, [r0, #4]
+004130fc  2046       mov      r0, r4
+004130fe  c4f87431   str.w    r3, [r4, #0x174]
+00413102  fff799fc   bl       #0x412a38
+00413106  2846       mov      r0, r5
+00413108  fff762fd   bl       #0x412bd0
+0041310c  4568       ldr      r5, [r0, #4]
+0041310e  2db1       cbz      r5, #0x41311c
+00413110  2846       mov      r0, r5
+00413112  f0f43cec   blx      #0x10398c
+00413116  2846       mov      r0, r5
+00413118  ebf4c0ef   blx      #0xff09c
+0041311c  3046       mov      r0, r6
+0041311e  7968       ldr      r1, [r7, #4]
+00413120  fff7d1ff   bl       #0x4130c6
+00413124  0023       movs     r3, #0
+00413126  c4f87431   str.w    r3, [r4, #0x174]
+0041312a  07f10c07   add.w    r7, r7, #0xc
+0041312e  bd46       mov      sp, r7
+00413130  f0bd       pop      {r4, r5, r6, r7, pc}
+-- direct callers --
+(none found in .text direct calls)
+
+=== LayoutableWidgetBase dirty dispatch internal target @ 0x004131a8 size=0x100 ===
+004131a8  3449       ldr      r1, [pc, #0xd0]
+004131aa  b0b5       push     {r4, r5, r7, lr}
+004131ac  88b0       sub      sp, #0x20
+004131ae  7944       add      r1, pc
+004131b0  00af       add      r7, sp, #0
+004131b2  0446       mov      r4, r0
+004131b4  91f90030   ldrsb.w  r3, [r1]
+004131b8  b3f1ff3f   cmp.w    r3, #-1
+004131bc  02d1       bne      #0x4131c4
+004131be  2e48       ldr      r0, [pc, #0xb8]
+004131c0  ebf456ef   blx      #0xff070
+004131c4  2e4b       ldr      r3, [pc, #0xb8]
+004131c6  7b44       add      r3, pc
+004131c8  93f90030   ldrsb.w  r3, [r3]
+004131cc  012b       cmp      r3, #1
+004131ce  22d1       bne      #0x413216
+004131d0  2368       ldr      r3, [r4]
+004131d2  0021       movs     r1, #0
+004131d4  1022       movs     r2, #0x10
+004131d6  381d       adds     r0, r7, #4
+004131d8  53f8045c   ldr      r5, [r3, #-0x4]
+004131dc  ecf482ee   blx      #0xffee4
+004131e0  2846       mov      r0, r5
+004131e2  99f65ffc   bl       #0x2acaa4
+004131e6  0021       movs     r1, #0
+004131e8  0a46       mov      r2, r1
+004131ea  07f11c03   add.w    r3, r7, #0x1c
+004131ee  eff4ace8   blx      #0x102348
+004131f2  1022       movs     r2, #0x10
+004131f4  011d       adds     r1, r0, #4
+004131f6  381d       adds     r0, r7, #4
+004131f8  ebf430eb   blx      #0xfe85c
+004131fc  04f5c470   add.w    r0, r4, #0x188
+00413200  0023       movs     r3, #0
+00413202  fb74       strb     r3, [r7, #0x13]
+00413204  fff7aefd   bl       #0x412d64
+00413208  47f6ff62   movw     r2, #0x7eff
+0041320c  3b1d       adds     r3, r7, #4
+0041320e  41b2       sxtb     r1, r0
+00413210  2046       mov      r0, r4
+00413212  ebf7e9fd   bl       #0x3fede8
+00413216  2368       ldr      r3, [r4]
+00413218  04f5c475   add.w    r5, r4, #0x188
+0041321c  2946       mov      r1, r5
+0041321e  2046       mov      r0, r4
+00413220  d3f83c31   ldr.w    r3, [r3, #0x13c]
+00413224  9847       blx      r3
+00413226  2846       mov      r0, r5
+00413228  fff7ccfd   bl       #0x412dc4
+0041322c  b861       str      r0, [r7, #0x18]
+0041322e  2846       mov      r0, r5
+00413230  fff7b6fd   bl       #0x412da0
+00413234  7861       str      r0, [r7, #0x14]
+00413236  10e0       b        #0x41325a
+00413238  07f11800   add.w    r0, r7, #0x18
+0041323c  fff7c8fc   bl       #0x412bd0
+00413240  4468       ldr      r4, [r0, #4]
+00413242  2cb1       cbz      r4, #0x413250
+00413244  2046       mov      r0, r4
+00413246  f0f4a2eb   blx      #0x10398c
+0041324a  2046       mov      r0, r4
+0041324c  ebf426ef   blx      #0xff09c
+00413250  07f11800   add.w    r0, r7, #0x18
+00413254  0021       movs     r1, #0
+00413256  fff7c0fc   bl       #0x412bda
+0041325a  07f11800   add.w    r0, r7, #0x18
+0041325e  07f11401   add.w    r1, r7, #0x14
+00413262  fff7adfc   bl       #0x412bc0
+00413266  0028       cmp      r0, #0
+00413268  e6d1       bne      #0x413238
+0041326a  2846       mov      r0, r5
+0041326c  fff796ff   bl       #0x41319c
+00413270  07f12007   add.w    r7, r7, #0x20
+00413274  bd46       mov      sp, r7
+00413276  b0bd       pop      {r4, r5, r7, pc}
+00413278  4017       asrs     r0, r0, #0x1d
+0041327a  0701       lsls     r7, r0, #4
+0041327c  8658       ldr      r6, [r0, r2]
+0041327e  f700       lsls     r7, r6, #3
+00413280  6e58       ldr      r6, [r5, r1]
+00413282  f700       lsls     r7, r6, #3
+00413284  0368       ldr      r3, [r0]
+00413286  b0b5       push     {r4, r5, r7, lr}
+00413288  00af       add      r7, sp, #0
+0041328a  d3f87831   ldr.w    r3, [r3, #0x178]
+0041328e  0446       mov      r4, r0
+00413290  9847       blx      r3
+00413292  10b1       cbz      r0, #0x41329a
+00413294  2046       mov      r0, r4
+00413296  fff728fd   bl       #0x412cea
+0041329a  04f5c470   add.w    r0, r4, #0x188
+0041329e  fff757fd   bl       #0x412d50
+004132a2  50b9       cbnz     r0, #0x4132ba
+004132a4  2368       ldr      r3, [r4]
+004132a6  2046       mov      r0, r4
+-- direct callers --
+(none found in .text direct calls)
+
+=== _ZN20LayoutableWidgetBase24checkAndHandleDirtyEventEv @ 0x00413284 size=0x38 ===
+00413284  0368       ldr      r3, [r0]
+00413286  b0b5       push     {r4, r5, r7, lr}
+00413288  00af       add      r7, sp, #0
+0041328a  d3f87831   ldr.w    r3, [r3, #0x178]
+0041328e  0446       mov      r4, r0
+00413290  9847       blx      r3
+00413292  10b1       cbz      r0, #0x41329a
+00413294  2046       mov      r0, r4
+00413296  fff728fd   bl       #0x412cea
+0041329a  04f5c470   add.w    r0, r4, #0x188
+0041329e  fff757fd   bl       #0x412d50
+004132a2  50b9       cbnz     r0, #0x4132ba
+004132a4  2368       ldr      r3, [r4]
+004132a6  2046       mov      r0, r4
+004132a8  d3f80431   ldr.w    r3, [r3, #0x104]
+004132ac  9847       blx      r3
+004132ae  20b1       cbz      r0, #0x4132ba
+004132b0  2046       mov      r0, r4
+004132b2  bde8b040   pop.w    {r4, r5, r7, lr}
+004132b6  fff777bf   b.w      #0x4131a8
+004132ba  b0bd       pop      {r4, r5, r7, pc}
+-- direct callers --
+(none found in .text direct calls)
+
+=== _ZN20LayoutableWidgetBase16sendInitialEventEv @ 0x004138a8 size=0x60 ===
+004138a8  f0b5       push     {r4, r5, r6, r7, lr}
+004138aa  89b0       sub      sp, #0x24
+004138ac  154e       ldr      r6, [pc, #0x54]
+004138ae  00af       add      r7, sp, #0
+004138b0  0546       mov      r5, r0
+004138b2  1020       movs     r0, #0x10
+004138b4  fe61       str      r6, [r7, #0x1c]
+004138b6  eaf4f2e8   blx      #0xfda9c
+004138ba  0022       movs     r2, #0
+004138bc  3146       mov      r1, r6
+004138be  1346       mov      r3, r2
+004138c0  0446       mov      r4, r0
+004138c2  e9f442eb   blx      #0xfcf48
+004138c6  07f11802   add.w    r2, r7, #0x18
+004138ca  07f11c01   add.w    r1, r7, #0x1c
+004138ce  07f11000   add.w    r0, r7, #0x10
+004138d2  bc61       str      r4, [r7, #0x18]
+004138d4  fff78bf9   bl       #0x412bee
+004138d8  07f11001   add.w    r1, r7, #0x10
+004138dc  07f10800   add.w    r0, r7, #8
+004138e0  fff78cf9   bl       #0x412bfc
+004138e4  3846       mov      r0, r7
+004138e6  05f5c471   add.w    r1, r5, #0x188
+004138ea  07f10802   add.w    r2, r7, #8
+004138ee  fff703ff   bl       #0x4136f8
+004138f2  07f12407   add.w    r7, r7, #0x24
+004138f6  bd46       mov      sp, r7
+004138f8  f0bd       pop      {r4, r5, r6, r7, pc}
+004138fa  2046       mov      r0, r4
+004138fc  ebf4ceeb   blx      #0xff09c
+00413900  ebf43aeb   blx      #0xfef78
+00413904  0440       ands     r4, r0
+00413906  0111       asrs     r1, r0, #4
+-- direct callers --
+(none found in .text direct calls)
+
+=== _ZN2ux6gfxeng14GraphicsEngine14updateResourceEv @ 0x005ed03e size=0x62 ===
+005ed03e  f0b5       push     {r4, r5, r6, r7, lr}
+005ed040  87b0       sub      sp, #0x1c
+005ed042  00af       add      r7, sp, #0
+005ed044  0ff7bce6   blx      #0xfcdc0
+005ed048  0546       mov      r5, r0
+005ed04a  13f7eae5   blx      #0x100c20
+005ed04e  3c35       adds     r5, #0x3c
+005ed050  0146       mov      r1, r0
+005ed052  381d       adds     r0, r7, #4
+005ed054  11f786e1   blx      #0xfe364
+005ed058  2846       mov      r0, r5
+005ed05a  fff779fd   bl       #0x5ecb50
+005ed05e  13e0       b        #0x5ed088
+005ed060  2168       ldr      r1, [r4]
+005ed062  2846       mov      r0, r5
+005ed064  fff7ccff   bl       #0x5ed000
+005ed068  0668       ldr      r6, [r0]
+005ed06a  3046       mov      r0, r6
+005ed06c  3368       ldr      r3, [r6]
+005ed06e  1b69       ldr      r3, [r3, #0x10]
+005ed070  9847       blx      r3
+005ed072  0246       mov      r2, r0
+005ed074  20b9       cbnz     r0, #0x5ed080
+005ed076  381d       adds     r0, r7, #4
+005ed078  06f12001   add.w    r1, r6, #0x20
+005ed07c  a3f17afc   bl       #0x790974
+005ed080  2846       mov      r0, r5
+005ed082  2168       ldr      r1, [r4]
+005ed084  fff7ceff   bl       #0x5ed024
+005ed088  0446       mov      r4, r0
+005ed08a  0028       cmp      r0, #0
+005ed08c  e8d1       bne      #0x5ed060
+005ed08e  fff7b3fb   bl       #0x5ec7f8
+005ed092  381d       adds     r0, r7, #4
+005ed094  15f7b4e6   blx      #0x102e00
+005ed098  07f11c07   add.w    r7, r7, #0x1c
+005ed09c  bd46       mov      sp, r7
+005ed09e  f0bd       pop      {r4, r5, r6, r7, pc}
+-- direct callers --
+(none found in .text direct calls)
+
+=== _ZN4View17endLayoutChangingEN3AFW18ChangeLayoutStatusE @ 0x00841354 size=0x14 ===
+00841354  0346       mov      r3, r0
+00841356  0a46       mov      r2, r1
+00841358  80b5       push     {r7, lr}
+0084135a  00af       add      r7, sp, #0
+0084135c  406a       ldr      r0, [r0, #0x24]
+0084135e  9969       ldr      r1, [r3, #0x18]
+00841360  bde88040   pop.w    {r7, lr}
+00841364  03f097bd   b.w      #0x844e96
+-- direct callers --
+(none found in .text direct calls)
+
+=== _ZN4View10drawDirectEv @ 0x00841368 size=0xe ===
+00841368  80b5       push     {r7, lr}
+0084136a  00af       add      r7, sp, #0
+0084136c  406a       ldr      r0, [r0, #0x24]
+0084136e  bde88040   pop.w    {r7, lr}
+00841372  04f098bb   b.w      #0x845aa6
+-- direct callers --
+(none found in .text direct calls)
+
+=== ViewManager::endLayoutChanging? internal target @ 0x00844e96 size=0x100 ===
+00844e96  042a       cmp      r2, #4
+00844e98  f0b5       push     {r4, r5, r6, r7, lr}
+00844e9a  00af       add      r7, sp, #0
+00844e9c  19d0       beq      #0x844ed2
+00844e9e  c06e       ldr      r0, [r0, #0x6c]
+00844ea0  0023       movs     r3, #0
+00844ea2  0568       ldr      r5, [r0]
+00844ea4  13e0       b        #0x844ece
+00844ea6  4669       ldr      r6, [r0, #0x14]
+00844ea8  9c00       lsls     r4, r3, #2
+00844eaa  56f82360   ldr.w    r6, [r6, r3, lsl #2]
+00844eae  8e42       cmp      r6, r1
+00844eb0  0cd1       bne      #0x844ecc
+00844eb2  8668       ldr      r6, [r0, #8]
+00844eb4  56f82360   ldr.w    r6, [r6, r3, lsl #2]
+00844eb8  b6f1ff3f   cmp.w    r6, #-1
+00844ebc  06d0       beq      #0x844ecc
+00844ebe  c568       ldr      r5, [r0, #0xc]
+00844ec0  0121       movs     r1, #1
+00844ec2  0171       strb     r1, [r0, #4]
+00844ec4  e954       strb     r1, [r5, r3]
+00844ec6  0369       ldr      r3, [r0, #0x10]
+00844ec8  1a51       str      r2, [r3, r4]
+00844eca  f0bd       pop      {r4, r5, r6, r7, pc}
+00844ecc  0133       adds     r3, #1
+00844ece  ab42       cmp      r3, r5
+00844ed0  e9db       blt      #0x844ea6
+00844ed2  f0bd       pop      {r4, r5, r6, r7, pc}
+00844ed4  c36e       ldr      r3, [r0, #0x6c]
+00844ed6  80b5       push     {r7, lr}
+00844ed8  00af       add      r7, sp, #0
+00844eda  1879       ldrb     r0, [r3, #4]
+00844edc  80bd       pop      {r7, pc}
+00844ede  c36e       ldr      r3, [r0, #0x6c]
+00844ee0  90b5       push     {r4, r7, lr}
+00844ee2  00af       add      r7, sp, #0
+00844ee4  9a68       ldr      r2, [r3, #8]
+00844ee6  52f82120   ldr.w    r2, [r2, r1, lsl #2]
+00844eea  b2f1ff3f   cmp.w    r2, #-1
+00844eee  0bd0       beq      #0x844f08
+00844ef0  006a       ldr      r0, [r0, #0x20]
+00844ef2  5c69       ldr      r4, [r3, #0x14]
+00844ef4  00eb0212   add.w    r2, r0, r2, lsl #4
+00844ef8  9068       ldr      r0, [r2, #8]
+00844efa  54f82120   ldr.w    r2, [r4, r1, lsl #2]
+00844efe  9042       cmp      r0, r2
+00844f00  04d1       bne      #0x844f0c
+00844f02  db68       ldr      r3, [r3, #0xc]
+00844f04  585c       ldrb     r0, [r3, r1]
+00844f06  90bd       pop      {r4, r7, pc}
+00844f08  0020       movs     r0, #0
+00844f0a  90bd       pop      {r4, r7, pc}
+00844f0c  0020       movs     r0, #0
+00844f0e  90bd       pop      {r4, r7, pc}
+00844f10  c36e       ldr      r3, [r0, #0x6c]
+00844f12  80b5       push     {r7, lr}
+00844f14  00af       add      r7, sp, #0
+00844f16  da68       ldr      r2, [r3, #0xc]
+00844f18  525c       ldrb     r2, [r2, r1]
+00844f1a  1ab1       cbz      r2, #0x844f24
+00844f1c  1b69       ldr      r3, [r3, #0x10]
+00844f1e  53f82100   ldr.w    r0, [r3, r1, lsl #2]
+00844f22  80bd       pop      {r7, pc}
+00844f24  0420       movs     r0, #4
+00844f26  80bd       pop      {r7, pc}
+00844f28  80b5       push     {r7, lr}
+00844f2a  00af       add      r7, sp, #0
+00844f2c  c06e       ldr      r0, [r0, #0x6c]
+00844f2e  bde88040   pop.w    {r7, lr}
+00844f32  fff7c5bd   b.w      #0x844ac0
+00844f36  b0b5       push     {r4, r5, r7, lr}
+00844f38  82b0       sub      sp, #8
+00844f3a  1446       mov      r4, r2
+00844f3c  02af       add      r7, sp, #8
+00844f3e  1546       mov      r5, r2
+00844f40  54f8140b   ldr      r0, [r4], #0x14
+00844f44  01eb0010   add.w    r0, r1, r0, lsl #4
+00844f48  fff79bfd   bl       #0x844a82
+00844f4c  e968       ldr      r1, [r5, #0xc]
+00844f4e  2a69       ldr      r2, [r5, #0x10]
+00844f50  0368       ldr      r3, [r0]
+00844f52  0094       str      r4, [sp]
+00844f54  dc6b       ldr      r4, [r3, #0x3c]
+00844f56  6b6c       ldr      r3, [r5, #0x44]
+00844f58  a047       blx      r4
+00844f5a  bd46       mov      sp, r7
+00844f5c  b0bd       pop      {r4, r5, r7, pc}
+00844f5e  0000       movs     r0, r0
+00844f60  3a49       ldr      r1, [pc, #0xe8]
+00844f62  2de9f047   push.w   {r4, r5, r6, r7, r8, sb, sl, lr}
+00844f66  0546       mov      r5, r0
+00844f68  84b0       sub      sp, #0x10
+00844f6a  0020       movs     r0, #0
+00844f6c  7944       add      r1, pc
+00844f6e  04af       add      r7, sp, #0x10
+00844f70  9246       mov      sl, r2
+00844f72  fff725fd   bl       #0x8449c0
+00844f76  6869       ldr      r0, [r5, #0x14]
+00844f78  02f004fe   bl       #0x847b84
+00844f7c  00f1ff38   add.w    r8, r0, #-1
+00844f80  4fea8809   lsl.w    sb, r8, #2
+00844f84  57e0       b        #0x845036
+00844f86  ab6e       ldr      r3, [r5, #0x68]
+00844f88  53f80940   ldr.w    r4, [r3, sb]
+00844f8c  2368       ldr      r3, [r4]
+00844f8e  b3f1ff3f   cmp.w    r3, #-1
+00844f92  04d1       bne      #0x844f9e
+00844f94  6368       ldr      r3, [r4, #4]
+-- direct callers --
+(none found in .text direct calls)
+
+=== ViewManager::drawDirect? internal target @ 0x00845aa6 size=0x100 ===
+00845aa6  b0b5       push     {r4, r5, r7, lr}
+00845aa8  00af       add      r7, sp, #0
+00845aaa  0446       mov      r4, r0
+00845aac  b7f418e3   blx      #0xfd0e0
+00845ab0  20b1       cbz      r0, #0x845abc
+00845ab2  6069       ldr      r0, [r4, #0x14]
+00845ab4  bde8b040   pop.w    {r4, r5, r7, lr}
+00845ab8  01f052bf   b.w      #0x847960
+00845abc  b0bd       pop      {r4, r5, r7, pc}
+00845abe  98b5       push     {r3, r4, r7, lr}
+00845ac0  0446       mov      r4, r0
+00845ac2  00af       add      r7, sp, #0
+00845ac4  0068       ldr      r0, [r0]
+00845ac6  bcf4d6e6   blx      #0x102874
+00845aca  2060       str      r0, [r4]
+00845acc  2046       mov      r0, r4
+00845ace  98bd       pop      {r3, r4, r7, pc}
+00845ad0  0368       ldr      r3, [r0]
+00845ad2  0868       ldr      r0, [r1]
+00845ad4  80b5       push     {r7, lr}
+00845ad6  191a       subs     r1, r3, r0
+00845ad8  4842       rsbs     r0, r1, #0
+00845ada  00af       add      r7, sp, #0
+00845adc  40eb0100   adc.w    r0, r0, r1
+00845ae0  80bd       pop      {r7, pc}
+00845ae2  0000       movs     r0, r0
+00845ae4  2de9f043   push.w   {r4, r5, r6, r7, r8, sb, lr}
+00845ae8  93b0       sub      sp, #0x4c
+00845aea  02af       add      r7, sp, #8
+00845aec  0446       mov      r4, r0
+00845aee  07f13c00   add.w    r0, r7, #0x3c
+00845af2  bcf4eae7   blx      #0x102ac8
+00845af6  524b       ldr      r3, [pc, #0x148]
+00845af8  dff84881   ldr.w    r8, [pc, #0x148]
+00845afc  0120       movs     r0, #1
+00845afe  0321       movs     r1, #3
+00845b00  0022       movs     r2, #0
+00845b02  7b44       add      r3, pc
+00845b04  f844       add      r8, pc
+00845b06  b8f4f2e4   blx      #0xfe4ec
+00845b0a  0025       movs     r5, #0
+00845b0c  1be0       b        #0x845b46
+00845b0e  236a       ldr      r3, [r4, #0x20]
+00845b10  2e01       lsls     r6, r5, #4
+00845b12  0120       movs     r0, #1
+00845b14  0321       movs     r1, #3
+00845b16  9b19       adds     r3, r3, r6
+00845b18  0022       movs     r2, #0
+00845b1a  9b68       ldr      r3, [r3, #8]
+00845b1c  0093       str      r3, [sp]
+00845b1e  6368       ldr      r3, [r4, #4]
+00845b20  53f82530   ldr.w    r3, [r3, r5, lsl #2]
+00845b24  0193       str      r3, [sp, #4]
+00845b26  484b       ldr      r3, [pc, #0x120]
+00845b28  7b44       add      r3, pc
+00845b2a  b8f4e0e4   blx      #0xfe4ec
+00845b2e  236a       ldr      r3, [r4, #0x20]
+00845b30  9e19       adds     r6, r3, r6
+00845b32  3046       mov      r0, r6
+00845b34  fef79eff   bl       #0x844a74
+00845b38  20b1       cbz      r0, #0x845b44
+00845b3a  3046       mov      r0, r6
+00845b3c  fef7a1ff   bl       #0x844a82
+00845b40  fdf7fafc   bl       #0x843538
+00845b44  0135       adds     r5, #1
+00845b46  2368       ldr      r3, [r4]
+00845b48  9d42       cmp      r5, r3
+00845b4a  e0db       blt      #0x845b0e
+00845b4c  3f4b       ldr      r3, [pc, #0xfc]
+00845b4e  0120       movs     r0, #1
+00845b50  0321       movs     r1, #3
+00845b52  0022       movs     r2, #0
+00845b54  7b44       add      r3, pc
+00845b56  b8f4cae4   blx      #0xfe4ec
+00845b5a  6069       ldr      r0, [r4, #0x14]
+00845b5c  02f012f8   bl       #0x847b84
+00845b60  451e       subs     r5, r0, #1
+00845b62  64e0       b        #0x845c2e
+00845b64  2946       mov      r1, r5
+00845b66  6069       ldr      r0, [r4, #0x14]
+00845b68  02f006f8   bl       #0x847b78
+00845b6c  0368       ldr      r3, [r0]
+00845b6e  07f13400   add.w    r0, r7, #0x34
+00845b72  fb63       str      r3, [r7, #0x3c]
+00845b74  88f75af6   bl       #0x3ce82c
+00845b78  f86b       ldr      r0, [r7, #0x3c]
+00845b7a  07f13401   add.w    r1, r7, #0x34
+00845b7e  bdf4fae7   blx      #0x103b74
+00845b82  0646       mov      r6, r0
+00845b84  40b1       cbz      r0, #0x845b98
+00845b86  324b       ldr      r3, [pc, #0xc8]
+00845b88  0321       movs     r1, #3
+00845b8a  0090       str      r0, [sp]
+00845b8c  0022       movs     r2, #0
+00845b8e  0120       movs     r0, #1
+00845b90  7b44       add      r3, pc
+00845b92  b8f4ace4   blx      #0xfe4ec
+00845b96  28e0       b        #0x845bea
+00845b98  07f13400   add.w    r0, r7, #0x34
+00845b9c  b146       mov      sb, r6
+00845b9e  88f74bf6   bl       #0x3ce838
+00845ba2  0de0       b        #0x845bc0
+00845ba4  0268       ldr      r2, [r0]
+-- direct callers --
+(none found in .text direct calls)

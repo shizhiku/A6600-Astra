@@ -1,0 +1,3498 @@
+{
+  "elf_sha256": "ebb6cd0475ebfdb592fb7bdd2a54df8bc694e2e0520733fb84d7dfd31c84038a",
+  "structure": "{physical_code,name_pointer}",
+  "entries": [
+    {
+      "file_offset": "0x13e8894",
+      "va": "0x13f0894",
+      "physical_code": "0x2",
+      "name": "KEY_TACT_POWER"
+    },
+    {
+      "file_offset": "0x13e889c",
+      "va": "0x13f089c",
+      "physical_code": "0x3",
+      "name": "KEY_TACT_UP"
+    },
+    {
+      "file_offset": "0x13e88a4",
+      "va": "0x13f08a4",
+      "physical_code": "0x13",
+      "name": "KEY_TACT_PNTLTMENU"
+    },
+    {
+      "file_offset": "0x13e88ac",
+      "va": "0x13f08ac",
+      "physical_code": "0x15",
+      "name": "KEY_TACT_LEFT"
+    },
+    {
+      "file_offset": "0x13e88b4",
+      "va": "0x13f08b4",
+      "physical_code": "0x20",
+      "name": "KEY_TACT_FINDER"
+    },
+    {
+      "file_offset": "0x13e88bc",
+      "va": "0x13f08bc",
+      "physical_code": "0x30",
+      "name": "KEY_TACT_DOWN"
+    },
+    {
+      "file_offset": "0x13e88c4",
+      "va": "0x13f08c4",
+      "physical_code": "0x41",
+      "name": "KEY_JACK_MULTILANC_LANC"
+    },
+    {
+      "file_offset": "0x13e88cc",
+      "va": "0x13f08cc",
+      "physical_code": "0x47",
+      "name": "KEY_JACK_HP_OUT"
+    },
+    {
+      "file_offset": "0x13e88d4",
+      "va": "0x13f08d4",
+      "physical_code": "0x4b",
+      "name": "KEY_JACK_MICJACK_IN"
+    },
+    {
+      "file_offset": "0x13e88dc",
+      "va": "0x13f08dc",
+      "physical_code": "0x4c",
+      "name": "KEY_JACK_MICJACK_OUT"
+    },
+    {
+      "file_offset": "0x13e88e4",
+      "va": "0x13f08e4",
+      "physical_code": "0x4d",
+      "name": "KEY_JACK_HP_IN"
+    },
+    {
+      "file_offset": "0x13e88ec",
+      "va": "0x13f08ec",
+      "physical_code": "0x50",
+      "name": "KEY_JACK_MULTIJACK_IN"
+    },
+    {
+      "file_offset": "0x13e88f4",
+      "va": "0x13f08f4",
+      "physical_code": "0x51",
+      "name": "KEY_JACK_MULTIJACK_OUT"
+    },
+    {
+      "file_offset": "0x13e88fc",
+      "va": "0x13f08fc",
+      "physical_code": "0x66",
+      "name": "KEY_TACT_CUSTOM"
+    },
+    {
+      "file_offset": "0x13e8904",
+      "va": "0x13f0904",
+      "physical_code": "0xa7",
+      "name": "KEY_TACT_CAP"
+    },
+    {
+      "file_offset": "0x13e890c",
+      "va": "0x13f090c",
+      "physical_code": "0xa7",
+      "name": "KEY_RELEASE_CAP"
+    },
+    {
+      "file_offset": "0x13e8914",
+      "va": "0x13f0914",
+      "physical_code": "0x1a4",
+      "name": "KEY_JACK_MICJACK_MONO_IN"
+    },
+    {
+      "file_offset": "0x13e891c",
+      "va": "0x13f091c",
+      "physical_code": "0x1a5",
+      "name": "KEY_JACK_MICJACK_MONO_OUT"
+    },
+    {
+      "file_offset": "0x13e8924",
+      "va": "0x13f0924",
+      "physical_code": "0x1ab",
+      "name": "KEY_TACT_MENU"
+    },
+    {
+      "file_offset": "0x13e892c",
+      "va": "0x13f092c",
+      "physical_code": "0x1ac",
+      "name": "KEY_TACT_ENTER"
+    },
+    {
+      "file_offset": "0x13e8934",
+      "va": "0x13f0934",
+      "physical_code": "0x1ad",
+      "name": "KEY_JACK_MULTILANC_DPLUG"
+    },
+    {
+      "file_offset": "0x13e893c",
+      "va": "0x13f093c",
+      "physical_code": "0x1af",
+      "name": "KEY_TACT_RIGHT"
+    },
+    {
+      "file_offset": "0x13e8944",
+      "va": "0x13f0944",
+      "physical_code": "0x1bf",
+      "name": "SLIKEY_ZOOM"
+    },
+    {
+      "file_offset": "0x13e894c",
+      "va": "0x13f094c",
+      "physical_code": "0x1d1",
+      "name": "SLIKEY_SLI_POWER"
+    },
+    {
+      "file_offset": "0x13e8954",
+      "va": "0x13f0954",
+      "physical_code": "0x1d2",
+      "name": "SLIKEY_SLI_POWER_OFF"
+    },
+    {
+      "file_offset": "0x13e895c",
+      "va": "0x13f095c",
+      "physical_code": "0x1d5",
+      "name": "SLIKEY_EVF_OPEN"
+    },
+    {
+      "file_offset": "0x13e8964",
+      "va": "0x13f0964",
+      "physical_code": "0x1d6",
+      "name": "SLIKEY_EVF_CLOSE"
+    },
+    {
+      "file_offset": "0x13e896c",
+      "va": "0x13f096c",
+      "physical_code": "0x1f0",
+      "name": "KEY_TACT_STARTSTOP"
+    },
+    {
+      "file_offset": "0x13e8974",
+      "va": "0x13f0974",
+      "physical_code": "0x1f1",
+      "name": "KEY_TACT_LOCK"
+    },
+    {
+      "file_offset": "0x13e897c",
+      "va": "0x13f097c",
+      "physical_code": "0x1f1",
+      "name": "KEY_RELEASE_LOCK"
+    },
+    {
+      "file_offset": "0x13e8984",
+      "va": "0x13f0984",
+      "physical_code": "0x1f3",
+      "name": "KEY_TACT_WIDE"
+    },
+    {
+      "file_offset": "0x13e898c",
+      "va": "0x13f098c",
+      "physical_code": "0x1f4",
+      "name": "KEY_TACT_FOCUS"
+    },
+    {
+      "file_offset": "0x13e8994",
+      "va": "0x13f0994",
+      "physical_code": "0x1f5",
+      "name": "KEY_TACT_TELE"
+    },
+    {
+      "file_offset": "0x13e899c",
+      "va": "0x13f099c",
+      "physical_code": "0x1f7",
+      "name": "KEY_TACT_PLAY"
+    },
+    {
+      "file_offset": "0x13e89a4",
+      "va": "0x13f09a4",
+      "physical_code": "0x1f8",
+      "name": "KEY_TACT_DELETE"
+    },
+    {
+      "file_offset": "0x13e89ac",
+      "va": "0x13f09ac",
+      "physical_code": "0x1f9",
+      "name": "KEY_TACT_DISP"
+    },
+    {
+      "file_offset": "0x13e89b4",
+      "va": "0x13f09b4",
+      "physical_code": "0x1fb",
+      "name": "KEY_TACT_CONTSHOT"
+    },
+    {
+      "file_offset": "0x13e89bc",
+      "va": "0x13f09bc",
+      "physical_code": "0x1ff",
+      "name": "SLIKEY_PANEL"
+    },
+    {
+      "file_offset": "0x13e89c4",
+      "va": "0x13f09c4",
+      "physical_code": "0x7017",
+      "name": "KEY_JACK_COMPONENT"
+    },
+    {
+      "file_offset": "0x13e89cc",
+      "va": "0x13f09cc",
+      "physical_code": "0x7020",
+      "name": "KEY_MEDIA_MS"
+    },
+    {
+      "file_offset": "0x13e89d4",
+      "va": "0x13f09d4",
+      "physical_code": "0x7023",
+      "name": "KEY_OTHER_KURU_PON"
+    },
+    {
+      "file_offset": "0x13e89dc",
+      "va": "0x13f09dc",
+      "physical_code": "0x7025",
+      "name": "KEY_POS_MODE_DIAL"
+    },
+    {
+      "file_offset": "0x13e89e4",
+      "va": "0x13f09e4",
+      "physical_code": "0x7026",
+      "name": "KEY_POS_MODE_SW"
+    },
+    {
+      "file_offset": "0x13e89ec",
+      "va": "0x13f09ec",
+      "physical_code": "0x7027",
+      "name": "KEY_TACT_MODE"
+    },
+    {
+      "file_offset": "0x13e89f4",
+      "va": "0x13f09f4",
+      "physical_code": "0x7028",
+      "name": "KEY_TACT_RESET"
+    },
+    {
+      "file_offset": "0x13e89fc",
+      "va": "0x13f09fc",
+      "physical_code": "0x7029",
+      "name": "KEY_TACT_NIGHTSHOT"
+    },
+    {
+      "file_offset": "0x13e8a04",
+      "va": "0x13f0a04",
+      "physical_code": "0x7030",
+      "name": "KEY_TACT_BACKLIGHT"
+    },
+    {
+      "file_offset": "0x13e8a0c",
+      "va": "0x13f0a0c",
+      "physical_code": "0x7031",
+      "name": "KEY_TACT_CAMCTRL_BTN"
+    },
+    {
+      "file_offset": "0x13e8a14",
+      "va": "0x13f0a14",
+      "physical_code": "0x7032",
+      "name": "KEY_TACT_VIDEOLIGHT"
+    },
+    {
+      "file_offset": "0x13e8a1c",
+      "va": "0x13f0a1c",
+      "physical_code": "0x7033",
+      "name": "KEY_TACT_IAUTO"
+    },
+    {
+      "file_offset": "0x13e8a24",
+      "va": "0x13f0a24",
+      "physical_code": "0x7034",
+      "name": "KEY_TACT_PROJECTOR"
+    },
+    {
+      "file_offset": "0x13e8a2c",
+      "va": "0x13f0a2c",
+      "physical_code": "0x7035",
+      "name": "KEY_TACT_2D3D"
+    },
+    {
+      "file_offset": "0x13e8a34",
+      "va": "0x13f0a34",
+      "physical_code": "0x7038",
+      "name": "KEY_POS_LENSCOVER"
+    },
+    {
+      "file_offset": "0x13e8a3c",
+      "va": "0x13f0a3c",
+      "physical_code": "0x7039",
+      "name": "KEY_OTHER_CAMCTRL_UP"
+    },
+    {
+      "file_offset": "0x13e8a44",
+      "va": "0x13f0a44",
+      "physical_code": "0x7040",
+      "name": "KEY_OTHER_CAMCTRL_DOWN"
+    },
+    {
+      "file_offset": "0x13e8a4c",
+      "va": "0x13f0a4c",
+      "physical_code": "0x7041",
+      "name": "KEY_BATT_IN"
+    },
+    {
+      "file_offset": "0x13e8a54",
+      "va": "0x13f0a54",
+      "physical_code": "0x7042",
+      "name": "KEY_ACV_DRIVE"
+    },
+    {
+      "file_offset": "0x13e8a5c",
+      "va": "0x13f0a5c",
+      "physical_code": "0x7043",
+      "name": "KEY_BATT_DRIVE"
+    },
+    {
+      "file_offset": "0x13e8a64",
+      "va": "0x13f0a64",
+      "physical_code": "0x7044",
+      "name": "KEY_ACV_HALF_IN"
+    },
+    {
+      "file_offset": "0x13e8a6c",
+      "va": "0x13f0a6c",
+      "physical_code": "0x7045",
+      "name": "KEY_TACT_ASSIGN1"
+    },
+    {
+      "file_offset": "0x13e8a74",
+      "va": "0x13f0a74",
+      "physical_code": "0x7046",
+      "name": "KEY_TACT_ASSIGN2"
+    },
+    {
+      "file_offset": "0x13e8a7c",
+      "va": "0x13f0a7c",
+      "physical_code": "0x7047",
+      "name": "KEY_TACT_ASSIGN3"
+    },
+    {
+      "file_offset": "0x13e8a84",
+      "va": "0x13f0a84",
+      "physical_code": "0x7048",
+      "name": "KEY_TACT_ASSIGN4"
+    },
+    {
+      "file_offset": "0x13e8a8c",
+      "va": "0x13f0a8c",
+      "physical_code": "0x7049",
+      "name": "KEY_TACT_ASSIGN5"
+    },
+    {
+      "file_offset": "0x13e8a94",
+      "va": "0x13f0a94",
+      "physical_code": "0x704a",
+      "name": "KEY_TACT_ASSIGN6"
+    },
+    {
+      "file_offset": "0x13e8a9c",
+      "va": "0x13f0a9c",
+      "physical_code": "0x704b",
+      "name": "KEY_TACT_ASSIGN7"
+    },
+    {
+      "file_offset": "0x13e8aa4",
+      "va": "0x13f0aa4",
+      "physical_code": "0x704c",
+      "name": "KEY_TACT_ONEPUSH_AUTO_IRIS"
+    },
+    {
+      "file_offset": "0x13e8aac",
+      "va": "0x13f0aac",
+      "physical_code": "0x704d",
+      "name": "KEY_TACT_IRIS"
+    },
+    {
+      "file_offset": "0x13e8ab4",
+      "va": "0x13f0ab4",
+      "physical_code": "0x704e",
+      "name": "KEY_TACT_OU_CRANK"
+    },
+    {
+      "file_offset": "0x13e8abc",
+      "va": "0x13f0abc",
+      "physical_code": "0x704f",
+      "name": "KEY_TACT_ISO"
+    },
+    {
+      "file_offset": "0x13e8ac4",
+      "va": "0x13f0ac4",
+      "physical_code": "0x7050",
+      "name": "KEY_TACT_FWD_SCANSLOW"
+    },
+    {
+      "file_offset": "0x13e8acc",
+      "va": "0x13f0acc",
+      "physical_code": "0x7051",
+      "name": "KEY_TACT_TCUB"
+    },
+    {
+      "file_offset": "0x13e8ad4",
+      "va": "0x13f0ad4",
+      "physical_code": "0x7052",
+      "name": "KEY_TACT_STATUS_CHECK"
+    },
+    {
+      "file_offset": "0x13e8adc",
+      "va": "0x13f0adc",
+      "physical_code": "0x7053",
+      "name": "KEY_TACT_PICT_PROFILE"
+    },
+    {
+      "file_offset": "0x13e8ae4",
+      "va": "0x13f0ae4",
+      "physical_code": "0x7054",
+      "name": "KEY_TACT_SHUTTER_SPEED"
+    },
+    {
+      "file_offset": "0x13e8aec",
+      "va": "0x13f0aec",
+      "physical_code": "0x7055",
+      "name": "KEY_TACT_ONEPUSHWB"
+    },
+    {
+      "file_offset": "0x13e8af4",
+      "va": "0x13f0af4",
+      "physical_code": "0x7056",
+      "name": "KEY_TACT_AWB"
+    },
+    {
+      "file_offset": "0x13e8afc",
+      "va": "0x13f0afc",
+      "physical_code": "0x7057",
+      "name": "KEY_TACT_CHAP_PLAY"
+    },
+    {
+      "file_offset": "0x13e8b04",
+      "va": "0x13f0b04",
+      "physical_code": "0x7058",
+      "name": "KEY_TACT_CHAP_NEXT"
+    },
+    {
+      "file_offset": "0x13e8b0c",
+      "va": "0x13f0b0c",
+      "physical_code": "0x7059",
+      "name": "KEY_TACT_CHAP_PREV"
+    },
+    {
+      "file_offset": "0x13e8b14",
+      "va": "0x13f0b14",
+      "physical_code": "0x705a",
+      "name": "KEY_TACT_CHAP_PAUSE"
+    },
+    {
+      "file_offset": "0x13e8b1c",
+      "va": "0x13f0b1c",
+      "physical_code": "0x705b",
+      "name": "KEY_TACT_CHAP_STOP"
+    },
+    {
+      "file_offset": "0x13e8b24",
+      "va": "0x13f0b24",
+      "physical_code": "0x705c",
+      "name": "KEY_TACT_RVS_SCANSLOW"
+    },
+    {
+      "file_offset": "0x13e8b2c",
+      "va": "0x13f0b2c",
+      "physical_code": "0x705d",
+      "name": "KEY_TACT_DATACODE"
+    },
+    {
+      "file_offset": "0x13e8b34",
+      "va": "0x13f0b34",
+      "physical_code": "0x705e",
+      "name": "KEY_TACT_VOL_MINUS"
+    },
+    {
+      "file_offset": "0x13e8b3c",
+      "va": "0x13f0b3c",
+      "physical_code": "0x705f",
+      "name": "KEY_TACT_VOL_PLUS"
+    },
+    {
+      "file_offset": "0x13e8b44",
+      "va": "0x13f0b44",
+      "physical_code": "0x7060",
+      "name": "KEY_TACT_ONEPUSH_AUTO_FOCUS"
+    },
+    {
+      "file_offset": "0x13e8b4c",
+      "va": "0x13f0b4c",
+      "physical_code": "0x7061",
+      "name": "KEY_TACT_EXP_FOCUS"
+    },
+    {
+      "file_offset": "0x13e8b54",
+      "va": "0x13f0b54",
+      "physical_code": "0x7062",
+      "name": "KEY_TACT_2ND_SS"
+    },
+    {
+      "file_offset": "0x13e8b5c",
+      "va": "0x13f0b5c",
+      "physical_code": "0x7063",
+      "name": "KEY_TACT_PANEL_EO_SW"
+    },
+    {
+      "file_offset": "0x13e8b64",
+      "va": "0x13f0b64",
+      "physical_code": "0x7064",
+      "name": "SLIKEY_2D"
+    },
+    {
+      "file_offset": "0x13e8b6c",
+      "va": "0x13f0b6c",
+      "physical_code": "0x7065",
+      "name": "SLIKEY_3D"
+    },
+    {
+      "file_offset": "0x13e8b74",
+      "va": "0x13f0b74",
+      "physical_code": "0x7066",
+      "name": "SLIKEY_RING_FOCUS"
+    },
+    {
+      "file_offset": "0x13e8b7c",
+      "va": "0x13f0b7c",
+      "physical_code": "0x7067",
+      "name": "SLIKEY_RING_ZOOM"
+    },
+    {
+      "file_offset": "0x13e8b84",
+      "va": "0x13f0b84",
+      "physical_code": "0x7068",
+      "name": "SLIKEY_RING_IRIS"
+    },
+    {
+      "file_offset": "0x13e8b8c",
+      "va": "0x13f0b8c",
+      "physical_code": "0x7069",
+      "name": "SLIKEY_MANUAL"
+    },
+    {
+      "file_offset": "0x13e8b94",
+      "va": "0x13f0b94",
+      "physical_code": "0x706a",
+      "name": "SLIKEY_AUTO"
+    },
+    {
+      "file_offset": "0x13e8b9c",
+      "va": "0x13f0b9c",
+      "physical_code": "0x706b",
+      "name": "SLIKEY_CH1_INPUT1"
+    },
+    {
+      "file_offset": "0x13e8ba4",
+      "va": "0x13f0ba4",
+      "physical_code": "0x706c",
+      "name": "SLIKEY_CH1_INPUT2"
+    },
+    {
+      "file_offset": "0x13e8bac",
+      "va": "0x13f0bac",
+      "physical_code": "0x706d",
+      "name": "SLIKEY_OPWB_A"
+    },
+    {
+      "file_offset": "0x13e8bb4",
+      "va": "0x13f0bb4",
+      "physical_code": "0x706e",
+      "name": "SLIKEY_OPWB_B"
+    },
+    {
+      "file_offset": "0x13e8bbc",
+      "va": "0x13f0bbc",
+      "physical_code": "0x706f",
+      "name": "SLIKEY_WB_PRESET"
+    },
+    {
+      "file_offset": "0x13e8bc4",
+      "va": "0x13f0bc4",
+      "physical_code": "0x7070",
+      "name": "SLIKEY_HP_MONI_CH1"
+    },
+    {
+      "file_offset": "0x13e8bcc",
+      "va": "0x13f0bcc",
+      "physical_code": "0x7071",
+      "name": "SLIKEY_HP_MONI_CH2"
+    },
+    {
+      "file_offset": "0x13e8bd4",
+      "va": "0x13f0bd4",
+      "physical_code": "0x7072",
+      "name": "SLIKEY_HP_MONI_MIX"
+    },
+    {
+      "file_offset": "0x13e8bdc",
+      "va": "0x13f0bdc",
+      "physical_code": "0x7073",
+      "name": "SLIKEY_MIC_AUTO_CH1"
+    },
+    {
+      "file_offset": "0x13e8be4",
+      "va": "0x13f0be4",
+      "physical_code": "0x7074",
+      "name": "SLIKEY_MIC_AUTO_CH2"
+    },
+    {
+      "file_offset": "0x13e8bec",
+      "va": "0x13f0bec",
+      "physical_code": "0x7075",
+      "name": "SLIKEY_MIC_MANUAL_CH1"
+    },
+    {
+      "file_offset": "0x13e8bf4",
+      "va": "0x13f0bf4",
+      "physical_code": "0x7076",
+      "name": "SLIKEY_MIC_MANUAL_CH2"
+    },
+    {
+      "file_offset": "0x13e8bfc",
+      "va": "0x13f0bfc",
+      "physical_code": "0x7077",
+      "name": "SLIKEY_CH2_INPUT1"
+    },
+    {
+      "file_offset": "0x13e8c04",
+      "va": "0x13f0c04",
+      "physical_code": "0x7078",
+      "name": "SLIKEY_CH2_INPUT2"
+    },
+    {
+      "file_offset": "0x13e8c0c",
+      "va": "0x13f0c0c",
+      "physical_code": "0x7079",
+      "name": "SLIKEY_FOCUS_INFINITY"
+    },
+    {
+      "file_offset": "0x13e8c14",
+      "va": "0x13f0c14",
+      "physical_code": "0x707a",
+      "name": "SLIKEY_FOCUS_AUTO"
+    },
+    {
+      "file_offset": "0x13e8c1c",
+      "va": "0x13f0c1c",
+      "physical_code": "0x707b",
+      "name": "SLIKEY_FOCUS_MANUAL"
+    },
+    {
+      "file_offset": "0x13e8c24",
+      "va": "0x13f0c24",
+      "physical_code": "0x707c",
+      "name": "SLIKEY_XLR1_PWR_ON"
+    },
+    {
+      "file_offset": "0x13e8c2c",
+      "va": "0x13f0c2c",
+      "physical_code": "0x707d",
+      "name": "SLIKEY_XLR1_PWR_OFF"
+    },
+    {
+      "file_offset": "0x13e8c34",
+      "va": "0x13f0c34",
+      "physical_code": "0x707e",
+      "name": "SLIKEY_XLR2_PWR_ON"
+    },
+    {
+      "file_offset": "0x13e8c3c",
+      "va": "0x13f0c3c",
+      "physical_code": "0x707f",
+      "name": "SLIKEY_XLR2_PWR_OFF"
+    },
+    {
+      "file_offset": "0x13e8c44",
+      "va": "0x13f0c44",
+      "physical_code": "0x7080",
+      "name": "SLIKEY_XLR1_LINE"
+    },
+    {
+      "file_offset": "0x13e8c4c",
+      "va": "0x13f0c4c",
+      "physical_code": "0x7081",
+      "name": "SLIKEY_XLR1_MIC"
+    },
+    {
+      "file_offset": "0x13e8c54",
+      "va": "0x13f0c54",
+      "physical_code": "0x7082",
+      "name": "SLIKEY_XLR2_LINE"
+    },
+    {
+      "file_offset": "0x13e8c5c",
+      "va": "0x13f0c5c",
+      "physical_code": "0x7083",
+      "name": "SLIKEY_XLR2_MIC"
+    },
+    {
+      "file_offset": "0x13e8c64",
+      "va": "0x13f0c64",
+      "physical_code": "0x7084",
+      "name": "KEY_JACK_COMPONENT_IN"
+    },
+    {
+      "file_offset": "0x13e8c6c",
+      "va": "0x13f0c6c",
+      "physical_code": "0x7085",
+      "name": "KEY_JACK_COMPONENT_OUT"
+    },
+    {
+      "file_offset": "0x13e8c74",
+      "va": "0x13f0c74",
+      "physical_code": "0x7086",
+      "name": "KEY_JACK_COMPOSITE_IN"
+    },
+    {
+      "file_offset": "0x13e8c7c",
+      "va": "0x13f0c7c",
+      "physical_code": "0x7087",
+      "name": "KEY_JACK_COMPOSITE_OUT"
+    },
+    {
+      "file_offset": "0x13e8c84",
+      "va": "0x13f0c84",
+      "physical_code": "0x7088",
+      "name": "SLIKEY_GAIN_H"
+    },
+    {
+      "file_offset": "0x13e8c8c",
+      "va": "0x13f0c8c",
+      "physical_code": "0x7089",
+      "name": "SLIKEY_GAIN_L"
+    },
+    {
+      "file_offset": "0x13e8c94",
+      "va": "0x13f0c94",
+      "physical_code": "0x708a",
+      "name": "SLIKEY_GAIN_M"
+    },
+    {
+      "file_offset": "0x13e8c9c",
+      "va": "0x13f0c9c",
+      "physical_code": "0x708b",
+      "name": "KEY_OTHER_EYE_CONTACT"
+    },
+    {
+      "file_offset": "0x13e8ca4",
+      "va": "0x13f0ca4",
+      "physical_code": "0x708c",
+      "name": "KEY_POS_ZOOMFOCUS_SW"
+    },
+    {
+      "file_offset": "0x13e8cac",
+      "va": "0x13f0cac",
+      "physical_code": "0x708d",
+      "name": "KEY_SLI_AF_MF"
+    },
+    {
+      "file_offset": "0x13e8cb4",
+      "va": "0x13f0cb4",
+      "physical_code": "0x708e",
+      "name": "KEY_SLI_AF_MF_MODE"
+    },
+    {
+      "file_offset": "0x13e8cbc",
+      "va": "0x13f0cbc",
+      "physical_code": "0x708f",
+      "name": "KEY_SLI_FINDER_LCD"
+    },
+    {
+      "file_offset": "0x13e8cc4",
+      "va": "0x13f0cc4",
+      "physical_code": "0x7090",
+      "name": "KEY_TACT_AEL"
+    },
+    {
+      "file_offset": "0x13e8ccc",
+      "va": "0x13f0ccc",
+      "physical_code": "0x7090",
+      "name": "KEY_RELEASE_AEL"
+    },
+    {
+      "file_offset": "0x13e8cd4",
+      "va": "0x13f0cd4",
+      "physical_code": "0x7091",
+      "name": "KEY_TACT_AF_MF"
+    },
+    {
+      "file_offset": "0x13e8cdc",
+      "va": "0x13f0cdc",
+      "physical_code": "0x7092",
+      "name": "KEY_TACT_DRIVE"
+    },
+    {
+      "file_offset": "0x13e8ce4",
+      "va": "0x13f0ce4",
+      "physical_code": "0x7093",
+      "name": "KEY_TACT_EXP"
+    },
+    {
+      "file_offset": "0x13e8cec",
+      "va": "0x13f0cec",
+      "physical_code": "0x7094",
+      "name": "KEY_TACT_FLASH_POPUP"
+    },
+    {
+      "file_offset": "0x13e8cf4",
+      "va": "0x13f0cf4",
+      "physical_code": "0x7095",
+      "name": "KEY_TACT_FN"
+    },
+    {
+      "file_offset": "0x13e8cfc",
+      "va": "0x13f0cfc",
+      "physical_code": "0x7096",
+      "name": "KEY_TACT_PREVIEW"
+    },
+    {
+      "file_offset": "0x13e8d04",
+      "va": "0x13f0d04",
+      "physical_code": "0x7097",
+      "name": "KEY_TACT_SUB_LCD_LIGHT"
+    },
+    {
+      "file_offset": "0x13e8d0c",
+      "va": "0x13f0d0c",
+      "physical_code": "0x7098",
+      "name": "KEY_TACT_WB"
+    },
+    {
+      "file_offset": "0x13e8d14",
+      "va": "0x13f0d14",
+      "physical_code": "0x7099",
+      "name": "KEY_OTHER_PD_PUSH"
+    },
+    {
+      "file_offset": "0x13e8d1c",
+      "va": "0x13f0d1c",
+      "physical_code": "0x709a",
+      "name": "KEY_TACT_PANEL_EVF"
+    },
+    {
+      "file_offset": "0x13e8d24",
+      "va": "0x13f0d24",
+      "physical_code": "0x709b",
+      "name": "KEY_OTHER_VER_GRIP_AEL"
+    },
+    {
+      "file_offset": "0x13e8d2c",
+      "va": "0x13f0d2c",
+      "physical_code": "0x709c",
+      "name": "KEY_OTHER_VER_GRIP_AF_MF"
+    },
+    {
+      "file_offset": "0x13e8d34",
+      "va": "0x13f0d34",
+      "physical_code": "0x709d",
+      "name": "KEY_OTHER_VER_GRIP_DOWN"
+    },
+    {
+      "file_offset": "0x13e8d3c",
+      "va": "0x13f0d3c",
+      "physical_code": "0x709e",
+      "name": "KEY_OTHER_VER_GRIP_ENTER"
+    },
+    {
+      "file_offset": "0x13e8d44",
+      "va": "0x13f0d44",
+      "physical_code": "0x709f",
+      "name": "KEY_OTHER_VER_GRIP_EXP"
+    },
+    {
+      "file_offset": "0x13e8d4c",
+      "va": "0x13f0d4c",
+      "physical_code": "0x70a0",
+      "name": "KEY_OTHER_VER_GRIP_EXP_FOCUS"
+    },
+    {
+      "file_offset": "0x13e8d54",
+      "va": "0x13f0d54",
+      "physical_code": "0x70a1",
+      "name": "KEY_OTHER_VER_GRIP_FN"
+    },
+    {
+      "file_offset": "0x13e8d5c",
+      "va": "0x13f0d5c",
+      "physical_code": "0x70a2",
+      "name": "KEY_OTHER_VER_GRIP_LEFT"
+    },
+    {
+      "file_offset": "0x13e8d64",
+      "va": "0x13f0d64",
+      "physical_code": "0x70a3",
+      "name": "KEY_OTHER_VER_GRIP_RIGHT"
+    },
+    {
+      "file_offset": "0x13e8d6c",
+      "va": "0x13f0d6c",
+      "physical_code": "0x70a4",
+      "name": "KEY_OTHER_VER_GRIP_SMART_TELE"
+    },
+    {
+      "file_offset": "0x13e8d74",
+      "va": "0x13f0d74",
+      "physical_code": "0x70a5",
+      "name": "KEY_OTHER_VER_GRIP_UP"
+    },
+    {
+      "file_offset": "0x13e8d7c",
+      "va": "0x13f0d7c",
+      "physical_code": "0x70a6",
+      "name": "KEY_PANEL_ARM_DET"
+    },
+    {
+      "file_offset": "0x13e8d84",
+      "va": "0x13f0d84",
+      "physical_code": "0x70a7",
+      "name": "KEY_PANEL_CLOSE_DET"
+    },
+    {
+      "file_offset": "0x13e8d8c",
+      "va": "0x13f0d8c",
+      "physical_code": "0x70a8",
+      "name": "KEY_PANEL_ROTATION_DET"
+    },
+    {
+      "file_offset": "0x13e8d94",
+      "va": "0x13f0d94",
+      "physical_code": "0x70a9",
+      "name": "KEY_TACT_DOWN_BI"
+    },
+    {
+      "file_offset": "0x13e8d9c",
+      "va": "0x13f0d9c",
+      "physical_code": "0x70aa",
+      "name": "KEY_TACT_LEFT_BI"
+    },
+    {
+      "file_offset": "0x13e8da4",
+      "va": "0x13f0da4",
+      "physical_code": "0x70ab",
+      "name": "KEY_TACT_RIGHT_BI"
+    },
+    {
+      "file_offset": "0x13e8dac",
+      "va": "0x13f0dac",
+      "physical_code": "0x70ac",
+      "name": "KEY_TACT_SMART_TELE"
+    },
+    {
+      "file_offset": "0x13e8db4",
+      "va": "0x13f0db4",
+      "physical_code": "0x70ad",
+      "name": "KEY_TACT_UP_BI"
+    },
+    {
+      "file_offset": "0x13e8dbc",
+      "va": "0x13f0dbc",
+      "physical_code": "0x70ae",
+      "name": "SLIKEY_AUTOMODE"
+    },
+    {
+      "file_offset": "0x13e8dc4",
+      "va": "0x13f0dc4",
+      "physical_code": "0x70af",
+      "name": "SLIKEY_CH1_INPUT"
+    },
+    {
+      "file_offset": "0x13e8dcc",
+      "va": "0x13f0dcc",
+      "physical_code": "0x70b0",
+      "name": "SLIKEY_CH2_INPUT"
+    },
+    {
+      "file_offset": "0x13e8dd4",
+      "va": "0x13f0dd4",
+      "physical_code": "0x70b1",
+      "name": "SLIKEY_FOCUS"
+    },
+    {
+      "file_offset": "0x13e8ddc",
+      "va": "0x13f0ddc",
+      "physical_code": "0x70b2",
+      "name": "SLIKEY_GAIN"
+    },
+    {
+      "file_offset": "0x13e8de4",
+      "va": "0x13f0de4",
+      "physical_code": "0x70b3",
+      "name": "SLIKEY_HP_MONI"
+    },
+    {
+      "file_offset": "0x13e8dec",
+      "va": "0x13f0dec",
+      "physical_code": "0x70b4",
+      "name": "SLIKEY_MIC_MODE_CH1"
+    },
+    {
+      "file_offset": "0x13e8df4",
+      "va": "0x13f0df4",
+      "physical_code": "0x70b5",
+      "name": "SLIKEY_MIC_MODE_CH2"
+    },
+    {
+      "file_offset": "0x13e8dfc",
+      "va": "0x13f0dfc",
+      "physical_code": "0x70b6",
+      "name": "SLIKEY_WB"
+    },
+    {
+      "file_offset": "0x13e8e04",
+      "va": "0x13f0e04",
+      "physical_code": "0x70b7",
+      "name": "SLIKEY_XLR1_LINE_MIC"
+    },
+    {
+      "file_offset": "0x13e8e0c",
+      "va": "0x13f0e0c",
+      "physical_code": "0x70b8",
+      "name": "SLIKEY_XLR1_PWR"
+    },
+    {
+      "file_offset": "0x13e8e14",
+      "va": "0x13f0e14",
+      "physical_code": "0x70b9",
+      "name": "SLIKEY_XLR2_LINE_MIC"
+    },
+    {
+      "file_offset": "0x13e8e1c",
+      "va": "0x13f0e1c",
+      "physical_code": "0x70ba",
+      "name": "SLIKEY_XLR2_PWR"
+    },
+    {
+      "file_offset": "0x13e8e24",
+      "va": "0x13f0e24",
+      "physical_code": "0x70bb",
+      "name": "KEY_FLASH_POPUP_DET"
+    },
+    {
+      "file_offset": "0x13e8e2c",
+      "va": "0x13f0e2c",
+      "physical_code": "0x70bc",
+      "name": "KEY_SLI_EVF_LEFT"
+    },
+    {
+      "file_offset": "0x13e8e34",
+      "va": "0x13f0e34",
+      "physical_code": "0x70bd",
+      "name": "KEY_SLI_EVF_RIGHT"
+    },
+    {
+      "file_offset": "0x13e8e3c",
+      "va": "0x13f0e3c",
+      "physical_code": "0x70be",
+      "name": "KEY_LENS_FH"
+    },
+    {
+      "file_offset": "0x13e8e44",
+      "va": "0x13f0e44",
+      "physical_code": "0x70bf",
+      "name": "KEY_LENS_OPE_PARTS_STATE_VARIATION"
+    },
+    {
+      "file_offset": "0x13e8e4c",
+      "va": "0x13f0e4c",
+      "physical_code": "0x70c0",
+      "name": "KEY_LENS_OPE_PARTS_STATUS"
+    },
+    {
+      "file_offset": "0x13e8e54",
+      "va": "0x13f0e54",
+      "physical_code": "0x70c1",
+      "name": "KEY_SLIKEY_ZOOM_SPINAL"
+    },
+    {
+      "file_offset": "0x13e8e5c",
+      "va": "0x13f0e5c",
+      "physical_code": "0x70c2",
+      "name": "KEY_OTHER_VER_GRIP_DET"
+    },
+    {
+      "file_offset": "0x13e8e64",
+      "va": "0x13f0e64",
+      "physical_code": "0x70c3",
+      "name": "KEY_TACT_5WAY_ALL"
+    },
+    {
+      "file_offset": "0x13e8e6c",
+      "va": "0x13f0e6c",
+      "physical_code": "0x70c4",
+      "name": "KEY_TACT_ENTER_BI"
+    },
+    {
+      "file_offset": "0x13e8e74",
+      "va": "0x13f0e74",
+      "physical_code": "0x70c5",
+      "name": "KEY_TACT_PROGRAM_AE"
+    },
+    {
+      "file_offset": "0x13e8e7c",
+      "va": "0x13f0e7c",
+      "physical_code": "0x70c6",
+      "name": "KEY_SLI_AF_MF_AEL"
+    },
+    {
+      "file_offset": "0x13e8e84",
+      "va": "0x13f0e84",
+      "physical_code": "0x70c7",
+      "name": "KEY_TACT_SETTING_ZOOM"
+    },
+    {
+      "file_offset": "0x13e8e8c",
+      "va": "0x13f0e8c",
+      "physical_code": "0x70c8",
+      "name": "SLIKEY_LOCK"
+    },
+    {
+      "file_offset": "0x13e8e94",
+      "va": "0x13f0e94",
+      "physical_code": "0x70c9",
+      "name": "SLIKEY_ND_FILTER"
+    },
+    {
+      "file_offset": "0x13e8e9c",
+      "va": "0x13f0e9c",
+      "physical_code": "0x70ca",
+      "name": "KEY_OTHER_VER_GRIP_DISP"
+    },
+    {
+      "file_offset": "0x13e8ea4",
+      "va": "0x13f0ea4",
+      "physical_code": "0x70cb",
+      "name": "KEY_TACT_FV_LOCK"
+    },
+    {
+      "file_offset": "0x13e8eac",
+      "va": "0x13f0eac",
+      "physical_code": "0x70cc",
+      "name": "KEY_JACK_EXTPANEL_IN"
+    },
+    {
+      "file_offset": "0x13e8eb4",
+      "va": "0x13f0eb4",
+      "physical_code": "0x70cd",
+      "name": "KEY_OTHER_VER_GRIP_SETTING_ZOOM"
+    },
+    {
+      "file_offset": "0x13e8ebc",
+      "va": "0x13f0ebc",
+      "physical_code": "0x70ce",
+      "name": "KEY_TACT_PEAKING"
+    },
+    {
+      "file_offset": "0x13e8ec4",
+      "va": "0x13f0ec4",
+      "physical_code": "0x70cf",
+      "name": "KEY_TACT_ZEBRA"
+    },
+    {
+      "file_offset": "0x13e8ecc",
+      "va": "0x13f0ecc",
+      "physical_code": "0x70d0",
+      "name": "KEY_TACT_ENTER_OFF"
+    },
+    {
+      "file_offset": "0x13e8ed4",
+      "va": "0x13f0ed4",
+      "physical_code": "0x70d1",
+      "name": "KEY_PANEL_NORMAL_CLOSE_DET"
+    },
+    {
+      "file_offset": "0x13e8edc",
+      "va": "0x13f0edc",
+      "physical_code": "0x70d2",
+      "name": "KEY_SLI_EV_COMPENSATION"
+    },
+    {
+      "file_offset": "0x13e8ee4",
+      "va": "0x13f0ee4",
+      "physical_code": "0x70d3",
+      "name": "KEY_SLI_EV_COMPENSATION2"
+    },
+    {
+      "file_offset": "0x13e8eec",
+      "va": "0x13f0eec",
+      "physical_code": "0x70d4",
+      "name": "KEY_SLI_APERTURE"
+    },
+    {
+      "file_offset": "0x13e8ef4",
+      "va": "0x13f0ef4",
+      "physical_code": "0x70d5",
+      "name": "KEY_UM_CONNECTOR_POWER"
+    },
+    {
+      "file_offset": "0x13e8efc",
+      "va": "0x13f0efc",
+      "physical_code": "0x70d6",
+      "name": "KEY_TACT_SELF_SHOT"
+    },
+    {
+      "file_offset": "0x13e8f04",
+      "va": "0x13f0f04",
+      "physical_code": "0x70d7",
+      "name": "KEY_TACT_EXPOSURE_A"
+    },
+    {
+      "file_offset": "0x13e8f0c",
+      "va": "0x13f0f0c",
+      "physical_code": "0x70d8",
+      "name": "KEY_TACT_EXPOSURE_AUTO"
+    },
+    {
+      "file_offset": "0x13e8f14",
+      "va": "0x13f0f14",
+      "physical_code": "0x70d9",
+      "name": "KEY_TACT_EXPOSURE_M"
+    },
+    {
+      "file_offset": "0x13e8f1c",
+      "va": "0x13f0f1c",
+      "physical_code": "0x70da",
+      "name": "KEY_TACT_EXPOSURE_P"
+    },
+    {
+      "file_offset": "0x13e8f24",
+      "va": "0x13f0f24",
+      "physical_code": "0x70db",
+      "name": "KEY_TACT_EXPOSURE_S"
+    },
+    {
+      "file_offset": "0x13e8f2c",
+      "va": "0x13f0f2c",
+      "physical_code": "0x70dc",
+      "name": "KEY_OTHER_VER_GRIP_AEL_AFMF"
+    },
+    {
+      "file_offset": "0x13e8f34",
+      "va": "0x13f0f34",
+      "physical_code": "0x70dd",
+      "name": "KEY_OTHER_VER_GRIP_CUSTOM1"
+    },
+    {
+      "file_offset": "0x13e8f3c",
+      "va": "0x13f0f3c",
+      "physical_code": "0x70de",
+      "name": "KEY_TACK_MC_B"
+    },
+    {
+      "file_offset": "0x13e8f44",
+      "va": "0x13f0f44",
+      "physical_code": "0x70df",
+      "name": "KEY_TACT_MC_A"
+    },
+    {
+      "file_offset": "0x13e8f4c",
+      "va": "0x13f0f4c",
+      "physical_code": "0x70e0",
+      "name": "SLIKEY_HANDLEZOOMTYPE"
+    },
+    {
+      "file_offset": "0x13e8f54",
+      "va": "0x13f0f54",
+      "physical_code": "0x70e1",
+      "name": "SLIKEY_HANDLEZOOMTYPE_FIX"
+    },
+    {
+      "file_offset": "0x13e8f5c",
+      "va": "0x13f0f5c",
+      "physical_code": "0x70e2",
+      "name": "SLIKEY_HANDLEZOOMTYPE_OFF"
+    },
+    {
+      "file_offset": "0x13e8f64",
+      "va": "0x13f0f64",
+      "physical_code": "0x70e3",
+      "name": "SLIKEY_HANDLEZOOMTYPE_VAR"
+    },
+    {
+      "file_offset": "0x13e8f6c",
+      "va": "0x13f0f6c",
+      "physical_code": "0x70e4",
+      "name": "KEY_TACT_MC_B"
+    },
+    {
+      "file_offset": "0x13e8f74",
+      "va": "0x13f0f74",
+      "physical_code": "0x70e5",
+      "name": "KEY_TACT_MYVOICE_CANCELING"
+    },
+    {
+      "file_offset": "0x13e8f7c",
+      "va": "0x13f0f7c",
+      "physical_code": "0x70e6",
+      "name": "SLIKEY_ZOOM_HANDLE"
+    },
+    {
+      "file_offset": "0x13e8f84",
+      "va": "0x13f0f84",
+      "physical_code": "0x70e7",
+      "name": "KEY_TACT_CUSTOM2"
+    },
+    {
+      "file_offset": "0x13e8f8c",
+      "va": "0x13f0f8c",
+      "physical_code": "0x70e8",
+      "name": "SLIKEY_ND_FILTER_MODE_AUTO"
+    },
+    {
+      "file_offset": "0x13e8f94",
+      "va": "0x13f0f94",
+      "physical_code": "0x70e9",
+      "name": "SLIKEY_ND_FILTER_MODE_MANUAL"
+    },
+    {
+      "file_offset": "0x13e8f9c",
+      "va": "0x13f0f9c",
+      "physical_code": "0x70ea",
+      "name": "KEY_TACT_MC_SEL"
+    },
+    {
+      "file_offset": "0x13e8fa4",
+      "va": "0x13f0fa4",
+      "physical_code": "0x70eb",
+      "name": "KEY_TACT_WIFI"
+    },
+    {
+      "file_offset": "0x13e8fac",
+      "va": "0x13f0fac",
+      "physical_code": "0x70ec",
+      "name": "KEY_TACT_CUSTOM3"
+    },
+    {
+      "file_offset": "0x13e8fb4",
+      "va": "0x13f0fb4",
+      "physical_code": "0x70ed",
+      "name": "KEY_OTHER_VER_GRIP_CUSTOM2"
+    },
+    {
+      "file_offset": "0x13e8fbc",
+      "va": "0x13f0fbc",
+      "physical_code": "0x70ee",
+      "name": "KEY_OTHER_VER_GRIP_CUSTOM3"
+    },
+    {
+      "file_offset": "0x13e8fc4",
+      "va": "0x13f0fc4",
+      "physical_code": "0x70ef",
+      "name": "KEY_PANEL_TILT_DET"
+    },
+    {
+      "file_offset": "0x13e8fcc",
+      "va": "0x13f0fcc",
+      "physical_code": "0x70f0",
+      "name": "KEY_TACT_APP"
+    },
+    {
+      "file_offset": "0x13e8fd4",
+      "va": "0x13f0fd4",
+      "physical_code": "0x70f1",
+      "name": "KEY_TACT_FRAMING_ASSIST"
+    },
+    {
+      "file_offset": "0x13e8fdc",
+      "va": "0x13f0fdc",
+      "physical_code": "0x70f2",
+      "name": "KEY_BTLE_PWR_ON"
+    },
+    {
+      "file_offset": "0x13e8fe4",
+      "va": "0x13f0fe4",
+      "physical_code": "0x70f3",
+      "name": "KEY_TACT_STEADYSHOT_HIGH"
+    },
+    {
+      "file_offset": "0x13e8fec",
+      "va": "0x13f0fec",
+      "physical_code": "0x70f4",
+      "name": "KEY_TACT_FOCUS_HOLD"
+    },
+    {
+      "file_offset": "0x13e8ff4",
+      "va": "0x13f0ff4",
+      "physical_code": "0x70f5",
+      "name": "KEY_TACT_MULTI_SELECTOR"
+    },
+    {
+      "file_offset": "0x13e8ffc",
+      "va": "0x13f0ffc",
+      "physical_code": "0x70f6",
+      "name": "KEY_OTHER_VER_GRIP_MULTI_SELECTOR"
+    },
+    {
+      "file_offset": "0x13e9004",
+      "va": "0x13f1004",
+      "physical_code": "0x70f7",
+      "name": "KEY_TACT_MULTI_SELECTOR_WITH_5WAY_KEY"
+    },
+    {
+      "file_offset": "0x13e900c",
+      "va": "0x13f100c",
+      "physical_code": "0x70f8",
+      "name": "KEY_TACT_MULTI_SELECTOR_ENTER_WITH_5WAY_KEY"
+    },
+    {
+      "file_offset": "0x13e9014",
+      "va": "0x13f1014",
+      "physical_code": "0x70f9",
+      "name": "KEY_OTHER_VER_GRIP_MULTI_SELECTOR_WITH_5WAY_KEY"
+    },
+    {
+      "file_offset": "0x13e901c",
+      "va": "0x13f101c",
+      "physical_code": "0x70fa",
+      "name": "KEY_DIAL_DRIVE_MODE"
+    },
+    {
+      "file_offset": "0x13e9024",
+      "va": "0x13f1024",
+      "physical_code": "0x70fb",
+      "name": "KEY_SLI_FOCUS_RANGE_LIMITER"
+    },
+    {
+      "file_offset": "0x13e902c",
+      "va": "0x13f102c",
+      "physical_code": "0x70fc",
+      "name": "KEY_POS_PICTURE_DIAL"
+    },
+    {
+      "file_offset": "0x13e9034",
+      "va": "0x13f1034",
+      "physical_code": "0x70fd",
+      "name": "KEY_PANEL_ARM_DET1"
+    },
+    {
+      "file_offset": "0x13e903c",
+      "va": "0x13f103c",
+      "physical_code": "0x70fe",
+      "name": "KEY_PANEL_ARM_DET2"
+    },
+    {
+      "file_offset": "0x13e9044",
+      "va": "0x13f1044",
+      "physical_code": "0x3003d30",
+      "name": "KEY_SIRCS_DVD_STARTSTOP"
+    },
+    {
+      "file_offset": "0x13e904c",
+      "va": "0x13f104c",
+      "physical_code": "0x3003d31",
+      "name": "KEY_SIRCS_DVD_PHOTOREC"
+    },
+    {
+      "file_offset": "0x13e9054",
+      "va": "0x13f1054",
+      "physical_code": "0x3003d33",
+      "name": "KEY_SIRCS_DVD_DATACODE"
+    },
+    {
+      "file_offset": "0x13e905c",
+      "va": "0x13f105c",
+      "physical_code": "0x3003d34",
+      "name": "KEY_SIRCS_DVD_VISUAL_INDEX"
+    },
+    {
+      "file_offset": "0x13e9064",
+      "va": "0x13f1064",
+      "physical_code": "0x3003d7d",
+      "name": "KEY_SIRCS_DVD_TC_RESET"
+    },
+    {
+      "file_offset": "0x13e906c",
+      "va": "0x13f106c",
+      "physical_code": "0x3006c92",
+      "name": "KEY_SIRCS_CAM_FADER"
+    },
+    {
+      "file_offset": "0x13e9074",
+      "va": "0x13f1074",
+      "physical_code": "0x3006c95",
+      "name": "KEY_SIRCS_CAM_CPWRMODE"
+    },
+    {
+      "file_offset": "0x13e907c",
+      "va": "0x13f107c",
+      "physical_code": "0x3006c96",
+      "name": "KEY_SIRCS_CAM_CPON"
+    },
+    {
+      "file_offset": "0x13e9084",
+      "va": "0x13f1084",
+      "physical_code": "0x3006c97",
+      "name": "KEY_SIRCS_CAM_CPOFF"
+    },
+    {
+      "file_offset": "0x13e908c",
+      "va": "0x13f108c",
+      "physical_code": "0x3006c9a",
+      "name": "KEY_SIRCS_CAM_ZOOMTELE"
+    },
+    {
+      "file_offset": "0x13e9094",
+      "va": "0x13f1094",
+      "physical_code": "0x3006c9b",
+      "name": "KEY_SIRCS_CAM_ZOOMWIDE"
+    },
+    {
+      "file_offset": "0x13e909c",
+      "va": "0x13f109c",
+      "physical_code": "0x3006c9c",
+      "name": "KEY_SIRCS_CAM_ZOOMTELE_H"
+    },
+    {
+      "file_offset": "0x13e90a4",
+      "va": "0x13f10a4",
+      "physical_code": "0x3006c9d",
+      "name": "KEY_SIRCS_CAM_ZOOMWIDE_H"
+    },
+    {
+      "file_offset": "0x13e90ac",
+      "va": "0x13f10ac",
+      "physical_code": "0x3006ca0",
+      "name": "KEY_SIRCS_CAM_FOCUSMODE"
+    },
+    {
+      "file_offset": "0x13e90b4",
+      "va": "0x13f10b4",
+      "physical_code": "0x3006ca2",
+      "name": "KEY_SIRCS_CAM_FOCUSFAR"
+    },
+    {
+      "file_offset": "0x13e90bc",
+      "va": "0x13f10bc",
+      "physical_code": "0x3006ca3",
+      "name": "KEY_SIRCS_CAM_FOCUSNEAR"
+    },
+    {
+      "file_offset": "0x13e90c4",
+      "va": "0x13f10c4",
+      "physical_code": "0x3006ca4",
+      "name": "KEY_SIRCS_CAM_WBM"
+    },
+    {
+      "file_offset": "0x13e90cc",
+      "va": "0x13f10cc",
+      "physical_code": "0x3006ca8",
+      "name": "KEY_SIRCS_CAM_BACKLIGHT"
+    },
+    {
+      "file_offset": "0x13e90d4",
+      "va": "0x13f10d4",
+      "physical_code": "0x3006cb0",
+      "name": "KEY_SIRCS_CAM_ESHUTTER"
+    },
+    {
+      "file_offset": "0x13e90dc",
+      "va": "0x13f10dc",
+      "physical_code": "0x3006cc2",
+      "name": "KEY_SIRCS_CAM_TMEMO"
+    },
+    {
+      "file_offset": "0x13e90e4",
+      "va": "0x13f10e4",
+      "physical_code": "0x3006cc3",
+      "name": "KEY_SIRCS_CAM_TCOLOR"
+    },
+    {
+      "file_offset": "0x13e90ec",
+      "va": "0x13f10ec",
+      "physical_code": "0x3006cc4",
+      "name": "KEY_SIRCS_CAM_T1"
+    },
+    {
+      "file_offset": "0x13e90f4",
+      "va": "0x13f10f4",
+      "physical_code": "0x3006cc5",
+      "name": "KEY_SIRCS_CAM_T2"
+    },
+    {
+      "file_offset": "0x13e90fc",
+      "va": "0x13f10fc",
+      "physical_code": "0x3006ce6",
+      "name": "KEY_SIRCS_CAM_BULB_LOCK"
+    },
+    {
+      "file_offset": "0x13e9104",
+      "va": "0x13f1104",
+      "physical_code": "0x3022d0b",
+      "name": "KEY_SIRCS_DVD_ENTER"
+    },
+    {
+      "file_offset": "0x13e910c",
+      "va": "0x13f110c",
+      "physical_code": "0x3022d1b",
+      "name": "KEY_SIRCS_DVD_MODE_SELECTOR"
+    },
+    {
+      "file_offset": "0x13e9114",
+      "va": "0x13f1114",
+      "physical_code": "0x3022d22",
+      "name": "KEY_SIRCS_DVD_RVS_SCANSLOW"
+    },
+    {
+      "file_offset": "0x13e911c",
+      "va": "0x13f111c",
+      "physical_code": "0x3022d23",
+      "name": "KEY_SIRCS_DVD_FWD_SCANSLOW"
+    },
+    {
+      "file_offset": "0x13e9124",
+      "va": "0x13f1124",
+      "physical_code": "0x3022d30",
+      "name": "KEY_SIRCS_DVD_PREVIOUS"
+    },
+    {
+      "file_offset": "0x13e912c",
+      "va": "0x13f112c",
+      "physical_code": "0x3022d31",
+      "name": "KEY_SIRCS_DVD_NEXT"
+    },
+    {
+      "file_offset": "0x13e9134",
+      "va": "0x13f1134",
+      "physical_code": "0x3022d32",
+      "name": "KEY_SIRCS_DVD_PLAY"
+    },
+    {
+      "file_offset": "0x13e913c",
+      "va": "0x13f113c",
+      "physical_code": "0x3022d38",
+      "name": "KEY_SIRCS_DVD_STOP"
+    },
+    {
+      "file_offset": "0x13e9144",
+      "va": "0x13f1144",
+      "physical_code": "0x3022d39",
+      "name": "KEY_SIRCS_DVD_PAUSE"
+    },
+    {
+      "file_offset": "0x13e914c",
+      "va": "0x13f114c",
+      "physical_code": "0x3022d53",
+      "name": "KEY_SIRCS_DVD_MENU"
+    },
+    {
+      "file_offset": "0x13e9154",
+      "va": "0x13f1154",
+      "physical_code": "0x3022d54",
+      "name": "KEY_SIRCS_DVD_DISPLAY_ONOFF"
+    },
+    {
+      "file_offset": "0x13e915c",
+      "va": "0x13f115c",
+      "physical_code": "0x3022d79",
+      "name": "KEY_SIRCS_DVD_CURSOR_UP"
+    },
+    {
+      "file_offset": "0x13e9164",
+      "va": "0x13f1164",
+      "physical_code": "0x3022d7a",
+      "name": "KEY_SIRCS_DVD_CURSOR_DOWN"
+    },
+    {
+      "file_offset": "0x13e916c",
+      "va": "0x13f116c",
+      "physical_code": "0x3022d7b",
+      "name": "KEY_SIRCS_DVD_CURSOR_LEFT"
+    },
+    {
+      "file_offset": "0x13e9174",
+      "va": "0x13f1174",
+      "physical_code": "0x3022d7c",
+      "name": "KEY_SIRCS_DVD_CURSOR_RIGHT"
+    },
+    {
+      "file_offset": "0x13e917c",
+      "va": "0x13f117c",
+      "physical_code": "0x30f1d11",
+      "name": "KEY_SIRCS_DSC_PRINT"
+    },
+    {
+      "file_offset": "0x13e9184",
+      "va": "0x13f1184",
+      "physical_code": "0x30f1d14",
+      "name": "KEY_SIRCS_DSC_DISP"
+    },
+    {
+      "file_offset": "0x13e918c",
+      "va": "0x13f118c",
+      "physical_code": "0x30f1d1b",
+      "name": "KEY_SIRCS_DSC_HISTGRAM"
+    },
+    {
+      "file_offset": "0x13e9194",
+      "va": "0x13f1194",
+      "physical_code": "0x30f1d20",
+      "name": "KEY_SIRCS_DSC_INDEX"
+    },
+    {
+      "file_offset": "0x13e919c",
+      "va": "0x13f119c",
+      "physical_code": "0x30f1d2d",
+      "name": "KEY_SIRCS_DSC_SHUTTER_ON"
+    },
+    {
+      "file_offset": "0x13e91a4",
+      "va": "0x13f11a4",
+      "physical_code": "0x30f1d32",
+      "name": "KEY_SIRCS_DSC_ROTATE"
+    },
+    {
+      "file_offset": "0x13e91ac",
+      "va": "0x13f11ac",
+      "physical_code": "0x30f1d37",
+      "name": "KEY_SIRCS_DSC_SHUTTER_ON_2SEC"
+    },
+    {
+      "file_offset": "0x13e91b4",
+      "va": "0x13f11b4",
+      "physical_code": "0x30f1d38",
+      "name": "KEY_SIRCS_DSC_MENU"
+    },
+    {
+      "file_offset": "0x13e91bc",
+      "va": "0x13f11bc",
+      "physical_code": "0x30f1d39",
+      "name": "KEY_SIRCS_DSC_ENTER"
+    },
+    {
+      "file_offset": "0x13e91c4",
+      "va": "0x13f11c4",
+      "physical_code": "0x30f1d3a",
+      "name": "KEY_SIRCS_DSC_UP"
+    },
+    {
+      "file_offset": "0x13e91cc",
+      "va": "0x13f11cc",
+      "physical_code": "0x30f1d3b",
+      "name": "KEY_SIRCS_DSC_DOWN"
+    },
+    {
+      "file_offset": "0x13e91d4",
+      "va": "0x13f11d4",
+      "physical_code": "0x30f1d3c",
+      "name": "KEY_SIRCS_DSC_PLAY"
+    },
+    {
+      "file_offset": "0x13e91dc",
+      "va": "0x13f11dc",
+      "physical_code": "0x30f1d3d",
+      "name": "KEY_SIRCS_DSC_DELETE"
+    },
+    {
+      "file_offset": "0x13e91e4",
+      "va": "0x13f11e4",
+      "physical_code": "0x30f1d3e",
+      "name": "KEY_SIRCS_DSC_LEFT"
+    },
+    {
+      "file_offset": "0x13e91ec",
+      "va": "0x13f11ec",
+      "physical_code": "0x30f1d3f",
+      "name": "KEY_SIRCS_DSC_RIGHT"
+    },
+    {
+      "file_offset": "0x13e91f4",
+      "va": "0x13f11f4",
+      "physical_code": "0x30f1d47",
+      "name": "KEY_SIRCS_DSC_SLIDE_SHOW"
+    },
+    {
+      "file_offset": "0x13e91fc",
+      "va": "0x13f11fc",
+      "physical_code": "0x30f1d48",
+      "name": "KEY_SIRCS_DSC_MOVIE_REC"
+    },
+    {
+      "file_offset": "0x13e9204",
+      "va": "0x13f1204",
+      "physical_code": "0x30f1d4a",
+      "name": "KEY_SIRCS_DSC_ZOOM_TELE"
+    },
+    {
+      "file_offset": "0x13e920c",
+      "va": "0x13f120c",
+      "physical_code": "0x30f1d4b",
+      "name": "KEY_SIRCS_DSC_ZOOM_WIDE"
+    },
+    {
+      "file_offset": "0x13e9214",
+      "va": "0x13f1214",
+      "physical_code": "0x30f1d4c",
+      "name": "KEY_SIRCS_DSC_ZOOM_TELE_H"
+    },
+    {
+      "file_offset": "0x13e921c",
+      "va": "0x13f121c",
+      "physical_code": "0x30f1d4d",
+      "name": "KEY_SIRCS_DSC_ZOOM_WIDE_H"
+    },
+    {
+      "file_offset": "0x13e9224",
+      "va": "0x13f1224",
+      "physical_code": "0x30f1d66",
+      "name": "KEY_SIRCS_DSC_BULB_LOCK"
+    },
+    {
+      "file_offset": "0x13e922c",
+      "va": "0x13f122c",
+      "physical_code": "0x3f03d31",
+      "name": "KEY_SIRCS_DVD_PHOTOREC_UM"
+    },
+    {
+      "file_offset": "0x13e9234",
+      "va": "0x13f1234",
+      "physical_code": "0x3f06cee",
+      "name": "KEY_SIRCS_CAM_HALF_SHUTTER_UM"
+    },
+    {
+      "file_offset": "0x13e923c",
+      "va": "0x13f123c",
+      "physical_code": "0x3ff1d29",
+      "name": "KEY_SIRCS_DSC_HALF_SHUTTER_UM"
+    },
+    {
+      "file_offset": "0x13e9244",
+      "va": "0x13f1244",
+      "physical_code": "0x3ff1d2d",
+      "name": "KEY_SIRCS_DSC_SHUTTER_ON_UM"
+    },
+    {
+      "file_offset": "0x13e924c",
+      "va": "0x13f124c",
+      "physical_code": "0x4000002",
+      "name": "INP_HOTSHOE_STROBE"
+    },
+    {
+      "file_offset": "0x13e9254",
+      "va": "0x13f1254",
+      "physical_code": "0x4000003",
+      "name": "INP_HOTSHOE_STEREOMIC"
+    },
+    {
+      "file_offset": "0x13e925c",
+      "va": "0x13f125c",
+      "physical_code": "0x4000004",
+      "name": "INP_HOTSHOE_HOUSINGMIC"
+    },
+    {
+      "file_offset": "0x13e9264",
+      "va": "0x13f1264",
+      "physical_code": "0x4000005",
+      "name": "INP_HOTSHOE_USBDEVUSB"
+    },
+    {
+      "file_offset": "0x13e926c",
+      "va": "0x13f126c",
+      "physical_code": "0x4000006",
+      "name": "INP_HOTSHOE_VIDEOLIGHT"
+    },
+    {
+      "file_offset": "0x13e9274",
+      "va": "0x13f1274",
+      "physical_code": "0x4000007",
+      "name": "INP_HOTSHOE_CH4MIC"
+    },
+    {
+      "file_offset": "0x13e927c",
+      "va": "0x13f127c",
+      "physical_code": "0x4000008",
+      "name": "INP_HOTSHOE_USBHOST"
+    },
+    {
+      "file_offset": "0x13e9284",
+      "va": "0x13f1284",
+      "physical_code": "0x4000009",
+      "name": "INP_HOTSHOE_VIDEOLIGHTAUTO"
+    },
+    {
+      "file_offset": "0x13e928c",
+      "va": "0x13f128c",
+      "physical_code": "0x400000a",
+      "name": "INP_HOTSHOE_GUNMIC"
+    },
+    {
+      "file_offset": "0x13e9294",
+      "va": "0x13f1294",
+      "physical_code": "0x400000b",
+      "name": "INP_HOTSHOE_IRLIGHT"
+    },
+    {
+      "file_offset": "0x13e929c",
+      "va": "0x13f129c",
+      "physical_code": "0x400000c",
+      "name": "INP_HOTSHOE_ZOOMMIC"
+    },
+    {
+      "file_offset": "0x13e92a4",
+      "va": "0x13f12a4",
+      "physical_code": "0x400000d",
+      "name": "INP_HOTSHOE_WLSMIC"
+    },
+    {
+      "file_offset": "0x13e92ac",
+      "va": "0x13f12ac",
+      "physical_code": "0x400000e",
+      "name": "INP_HOTSHOE_ALLWAYON"
+    },
+    {
+      "file_offset": "0x13e92b4",
+      "va": "0x13f12b4",
+      "physical_code": "0x400000f",
+      "name": "INP_HOTSHOE_XLRMIC"
+    },
+    {
+      "file_offset": "0x13e92bc",
+      "va": "0x13f12bc",
+      "physical_code": "0x4000010",
+      "name": "INP_HOTSHOE_JIRO"
+    },
+    {
+      "file_offset": "0x13e92c4",
+      "va": "0x13f12c4",
+      "physical_code": "0x4000011",
+      "name": "INP_HOTSHOE_II_STEREOMIC"
+    },
+    {
+      "file_offset": "0x13e92cc",
+      "va": "0x13f12cc",
+      "physical_code": "0x4000012",
+      "name": "INP_HOTSHOE_II_STROBE"
+    },
+    {
+      "file_offset": "0x13e92d4",
+      "va": "0x13f12d4",
+      "physical_code": "0x4000013",
+      "name": "INP_HOTSHOE_II_XLRMIC"
+    },
+    {
+      "file_offset": "0x13e92dc",
+      "va": "0x13f12dc",
+      "physical_code": "0x4000014",
+      "name": "INP_HOTSHOE_ALPHA_STROBE"
+    },
+    {
+      "file_offset": "0x13e92e4",
+      "va": "0x13f12e4",
+      "physical_code": "0x4000015",
+      "name": "INP_HOTSHOE_II_EVF"
+    },
+    {
+      "file_offset": "0x13e92ec",
+      "va": "0x13f12ec",
+      "physical_code": "0x4000016",
+      "name": "INP_HOTSHOE_II_GPS"
+    },
+    {
+      "file_offset": "0x13e92f4",
+      "va": "0x13f12f4",
+      "physical_code": "0x4000017",
+      "name": "INP_HOTSHOE_II_JIRO"
+    },
+    {
+      "file_offset": "0x13e92fc",
+      "va": "0x13f12fc",
+      "physical_code": "0x4000018",
+      "name": "INP_HOTSHOE_II_WIFI"
+    },
+    {
+      "file_offset": "0x13e9304",
+      "va": "0x13f1304",
+      "physical_code": "0x4000019",
+      "name": "INP_HOTSHOE_II_ADAPTER_AI2II"
+    },
+    {
+      "file_offset": "0x13e930c",
+      "va": "0x13f130c",
+      "physical_code": "0x400001a",
+      "name": "INP_HOTSHOE_ALLWAYOFF_1"
+    },
+    {
+      "file_offset": "0x13e9314",
+      "va": "0x13f1314",
+      "physical_code": "0x400001b",
+      "name": "INP_HOTSHOE_ALLWAYOFF_2"
+    },
+    {
+      "file_offset": "0x13e931c",
+      "va": "0x13f131c",
+      "physical_code": "0x400001c",
+      "name": "INP_HOTSHOE_ALLWAYOFF_3"
+    },
+    {
+      "file_offset": "0x13e9324",
+      "va": "0x13f1324",
+      "physical_code": "0x400001d",
+      "name": "INP_HOTSHOE_II_WLSMIC"
+    },
+    {
+      "file_offset": "0x13e932c",
+      "va": "0x13f132c",
+      "physical_code": "0x400001e",
+      "name": "INP_HOTSHOE_II_ZOOMMIC"
+    },
+    {
+      "file_offset": "0x13e9334",
+      "va": "0x13f1334",
+      "physical_code": "0x400001f",
+      "name": "INP_HOTSHOE_II_GUNMIC"
+    },
+    {
+      "file_offset": "0x13e933c",
+      "va": "0x13f133c",
+      "physical_code": "0x4000020",
+      "name": "INP_HOTSHOE_II_MIC_OFF"
+    },
+    {
+      "file_offset": "0x13e9344",
+      "va": "0x13f1344",
+      "physical_code": "0x4000021",
+      "name": "INP_HOTSHOE_II_VIDEOLIGHT_ON"
+    },
+    {
+      "file_offset": "0x13e934c",
+      "va": "0x13f134c",
+      "physical_code": "0x4000022",
+      "name": "INP_HOTSHOE_II_VIDEOLIGHT_OFF"
+    },
+    {
+      "file_offset": "0x13e9354",
+      "va": "0x13f1354",
+      "physical_code": "0x4000023",
+      "name": "INP_HOTSHOE_II_XLR_2ND_KEY"
+    },
+    {
+      "file_offset": "0x13e935c",
+      "va": "0x13f135c",
+      "physical_code": "0x4000024",
+      "name": "INP_HOTSHOE_II_STROBE_REMOTE_TRIGGER"
+    },
+    {
+      "file_offset": "0x13e9364",
+      "va": "0x13f1364",
+      "physical_code": "0x4000025",
+      "name": "INP_HOTSHOE_EXT_RESERVE_001"
+    },
+    {
+      "file_offset": "0x13e936c",
+      "va": "0x13f136c",
+      "physical_code": "0x4000026",
+      "name": "INP_HOTSHOE_EXT_RESERVE_002"
+    },
+    {
+      "file_offset": "0x13e9374",
+      "va": "0x13f1374",
+      "physical_code": "0x4000027",
+      "name": "INP_HOTSHOE_II_DIGMIC0"
+    },
+    {
+      "file_offset": "0x13e937c",
+      "va": "0x13f137c",
+      "physical_code": "0x4000028",
+      "name": "INP_HOTSHOE_II_DIGMIC1"
+    },
+    {
+      "file_offset": "0x13e9384",
+      "va": "0x13f1384",
+      "physical_code": "0x4000029",
+      "name": "INP_HOTSHOE_II_DIGMIC_OFF"
+    },
+    {
+      "file_offset": "0x13e938c",
+      "va": "0x13f138c",
+      "physical_code": "0x4ffffff",
+      "name": "INP_HOTSHOE_II_NOTSUPPORT"
+    },
+    {
+      "file_offset": "0x13e9394",
+      "va": "0x13f1394",
+      "physical_code": "0x500102a",
+      "name": "KEY_LANC_PWR_MODE"
+    },
+    {
+      "file_offset": "0x13e939c",
+      "va": "0x13f139c",
+      "physical_code": "0x5001030",
+      "name": "KEY_LANC_STOP"
+    },
+    {
+      "file_offset": "0x13e93a4",
+      "va": "0x13f13a4",
+      "physical_code": "0x5001032",
+      "name": "KEY_LANC_PAUSE"
+    },
+    {
+      "file_offset": "0x13e93ac",
+      "va": "0x13f13ac",
+      "physical_code": "0x5001033",
+      "name": "KEY_LANC_STARTSTOP"
+    },
+    {
+      "file_offset": "0x13e93b4",
+      "va": "0x13f13b4",
+      "physical_code": "0x5001034",
+      "name": "KEY_LANC_PB"
+    },
+    {
+      "file_offset": "0x13e93bc",
+      "va": "0x13f13bc",
+      "physical_code": "0x500103a",
+      "name": "KEY_LANC_REC"
+    },
+    {
+      "file_offset": "0x13e93c4",
+      "va": "0x13f13c4",
+      "physical_code": "0x500103c",
+      "name": "KEY_LANC_RECSTOP"
+    },
+    {
+      "file_offset": "0x13e93cc",
+      "va": "0x13f13cc",
+      "physical_code": "0x5001046",
+      "name": "KEY_LANC_SLOW_P"
+    },
+    {
+      "file_offset": "0x13e93d4",
+      "va": "0x13f13d4",
+      "physical_code": "0x5001060",
+      "name": "KEY_LANC_STEP_M"
+    },
+    {
+      "file_offset": "0x13e93dc",
+      "va": "0x13f13dc",
+      "physical_code": "0x5001062",
+      "name": "KEY_LANC_STEP_P"
+    },
+    {
+      "file_offset": "0x13e93e4",
+      "va": "0x13f13e4",
+      "physical_code": "0x5001069",
+      "name": "KEY_LANC_RECREVIEW"
+    },
+    {
+      "file_offset": "0x13e93ec",
+      "va": "0x13f13ec",
+      "physical_code": "0x500108c",
+      "name": "KEY_LANC_COUNTER_RESET"
+    },
+    {
+      "file_offset": "0x13e93f4",
+      "va": "0x13f13f4",
+      "physical_code": "0x5002000",
+      "name": "KEY_LANC_ZOOM_CHANGE"
+    },
+    {
+      "file_offset": "0x13e93fc",
+      "va": "0x13f13fc",
+      "physical_code": "0x5002021",
+      "name": "KEY_LANC_GUIDE_FRAME"
+    },
+    {
+      "file_offset": "0x13e9404",
+      "va": "0x13f1404",
+      "physical_code": "0x5002041",
+      "name": "KEY_LANC_FOCUS_MODE"
+    },
+    {
+      "file_offset": "0x13e940c",
+      "va": "0x13f140c",
+      "physical_code": "0x5002043",
+      "name": "KEY_LANC_ONEPUSH_AF"
+    },
+    {
+      "file_offset": "0x13e9414",
+      "va": "0x13f1414",
+      "physical_code": "0x5002045",
+      "name": "KEY_LANC_FOCUS_FAR"
+    },
+    {
+      "file_offset": "0x13e941c",
+      "va": "0x13f141c",
+      "physical_code": "0x5002047",
+      "name": "KEY_LANC_FOCUS_NEAR"
+    },
+    {
+      "file_offset": "0x13e9424",
+      "va": "0x13f1424",
+      "physical_code": "0x5002049",
+      "name": "KEY_LANC_WB_MODE"
+    },
+    {
+      "file_offset": "0x13e942c",
+      "va": "0x13f142c",
+      "physical_code": "0x5002061",
+      "name": "KEY_LANC_SHUTTER_MODE"
+    },
+    {
+      "file_offset": "0x13e9434",
+      "va": "0x13f1434",
+      "physical_code": "0x5002077",
+      "name": "KEY_LANC_ONEPUSH_WB"
+    },
+    {
+      "file_offset": "0x13e943c",
+      "va": "0x13f143c",
+      "physical_code": "0x5002083",
+      "name": "KEY_LANC_PICTURE_PROFILE"
+    },
+    {
+      "file_offset": "0x13e9444",
+      "va": "0x13f1444",
+      "physical_code": "0x5002091",
+      "name": "KEY_LANC_GAIN_MODE"
+    },
+    {
+      "file_offset": "0x13e944c",
+      "va": "0x13f144c",
+      "physical_code": "0x5002093",
+      "name": "KEY_LANC_GAIN_SELECT"
+    },
+    {
+      "file_offset": "0x13e9454",
+      "va": "0x13f1454",
+      "physical_code": "0x500209f",
+      "name": "KEY_LANC_EXPFOCUS"
+    },
+    {
+      "file_offset": "0x13e945c",
+      "va": "0x13f145c",
+      "physical_code": "0x50020ad",
+      "name": "KEY_LANC_IRIS_MODE"
+    },
+    {
+      "file_offset": "0x13e9464",
+      "va": "0x13f1464",
+      "physical_code": "0x50020af",
+      "name": "KEY_LANC_ONEPUSH_IRIS"
+    },
+    {
+      "file_offset": "0x13e946c",
+      "va": "0x13f146c",
+      "physical_code": "0x50020b1",
+      "name": "KEY_LANC_ASSIGN_KEY_1"
+    },
+    {
+      "file_offset": "0x13e9474",
+      "va": "0x13f1474",
+      "physical_code": "0x50020b3",
+      "name": "KEY_LANC_ASSIGN_KEY_2"
+    },
+    {
+      "file_offset": "0x13e947c",
+      "va": "0x13f147c",
+      "physical_code": "0x50020b5",
+      "name": "KEY_LANC_ASSIGN_KEY_3"
+    },
+    {
+      "file_offset": "0x13e9484",
+      "va": "0x13f1484",
+      "physical_code": "0x50020b7",
+      "name": "KEY_LANC_ASSIGN_KEY_4"
+    },
+    {
+      "file_offset": "0x13e948c",
+      "va": "0x13f148c",
+      "physical_code": "0x50020b9",
+      "name": "KEY_LANC_ASSIGN_KEY_5"
+    },
+    {
+      "file_offset": "0x13e9494",
+      "va": "0x13f1494",
+      "physical_code": "0x50020bb",
+      "name": "KEY_LANC_ASSIGN_KEY_6"
+    },
+    {
+      "file_offset": "0x13e949c",
+      "va": "0x13f149c",
+      "physical_code": "0x50020c1",
+      "name": "KEY_LANC_IRIS_CHANGE"
+    },
+    {
+      "file_offset": "0x13e94a4",
+      "va": "0x13f14a4",
+      "physical_code": "0x50020d1",
+      "name": "KEY_LANC_WB_PRESET"
+    },
+    {
+      "file_offset": "0x13e94ac",
+      "va": "0x13f14ac",
+      "physical_code": "0x50020d3",
+      "name": "KEY_LANC_ONEPUSH_WB_A"
+    },
+    {
+      "file_offset": "0x13e94b4",
+      "va": "0x13f14b4",
+      "physical_code": "0x50020d5",
+      "name": "KEY_LANC_ONEPUSH_WB_B"
+    },
+    {
+      "file_offset": "0x13e94bc",
+      "va": "0x13f14bc",
+      "physical_code": "0x500d002",
+      "name": "KEY_LANC_PHOTO_START"
+    },
+    {
+      "file_offset": "0x13e94c4",
+      "va": "0x13f14c4",
+      "physical_code": "0x500d003",
+      "name": "KEY_LANC_POWEROFF"
+    },
+    {
+      "file_offset": "0x13e94cc",
+      "va": "0x13f14cc",
+      "physical_code": "0x500d005",
+      "name": "KEY_LANC_MENU"
+    },
+    {
+      "file_offset": "0x13e94d4",
+      "va": "0x13f14d4",
+      "physical_code": "0x500d007",
+      "name": "KEY_LANC_VISUAL_INDEX"
+    },
+    {
+      "file_offset": "0x13e94dc",
+      "va": "0x13f14dc",
+      "physical_code": "0x500d009",
+      "name": "KEY_LANC_ENTER"
+    },
+    {
+      "file_offset": "0x13e94e4",
+      "va": "0x13f14e4",
+      "physical_code": "0x500d00b",
+      "name": "KEY_LANC_RIGHT"
+    },
+    {
+      "file_offset": "0x13e94ec",
+      "va": "0x13f14ec",
+      "physical_code": "0x500d00c",
+      "name": "KEY_LANC_PHOTO_FRZ"
+    },
+    {
+      "file_offset": "0x13e94f4",
+      "va": "0x13f14f4",
+      "physical_code": "0x500d00d",
+      "name": "KEY_LANC_LEFT"
+    },
+    {
+      "file_offset": "0x13e94fc",
+      "va": "0x13f14fc",
+      "physical_code": "0x500d00f",
+      "name": "KEY_LANC_UP"
+    },
+    {
+      "file_offset": "0x13e9504",
+      "va": "0x13f1504",
+      "physical_code": "0x500d011",
+      "name": "KEY_LANC_DOWN"
+    },
+    {
+      "file_offset": "0x13e950c",
+      "va": "0x13f150c",
+      "physical_code": "0x500d012",
+      "name": "KEY_LANC_SCANSLOW_M"
+    },
+    {
+      "file_offset": "0x13e9514",
+      "va": "0x13f1514",
+      "physical_code": "0x500d014",
+      "name": "KEY_LANC_SCANSLOW_P"
+    },
+    {
+      "file_offset": "0x13e951c",
+      "va": "0x13f151c",
+      "physical_code": "0x500d016",
+      "name": "KEY_LANC_CHAP_PREV"
+    },
+    {
+      "file_offset": "0x13e9524",
+      "va": "0x13f1524",
+      "physical_code": "0x500d017",
+      "name": "KEY_LANC_DISPLAY"
+    },
+    {
+      "file_offset": "0x13e952c",
+      "va": "0x13f152c",
+      "physical_code": "0x500d018",
+      "name": "KEY_LANC_CHAP_NEXT"
+    },
+    {
+      "file_offset": "0x13e9534",
+      "va": "0x13f1534",
+      "physical_code": "0x500d01b",
+      "name": "KEY_LANC_DATACODE"
+    },
+    {
+      "file_offset": "0x13e953c",
+      "va": "0x13f153c",
+      "physical_code": "0x500d01d",
+      "name": "KEY_LANC_MODE_SELECTOR"
+    },
+    {
+      "file_offset": "0x13e9544",
+      "va": "0x13f1544",
+      "physical_code": "0x500ff01",
+      "name": "KEY_LANC_SPORTPACK_STATUS"
+    },
+    {
+      "file_offset": "0x13e954c",
+      "va": "0x13f154c",
+      "physical_code": "0x500ff02",
+      "name": "KEY_LANC_POWEROFFINH_ACCESSORY"
+    },
+    {
+      "file_offset": "0x13e9554",
+      "va": "0x13f1554",
+      "physical_code": "0x500ff03",
+      "name": "KEY_LANC_HIGHEND_REMOTE_CONTOLLER"
+    },
+    {
+      "file_offset": "0x13e955c",
+      "va": "0x13f155c",
+      "physical_code": "0x500ff04",
+      "name": "KEY_LANC_INP_HOTSHOE_STROBE"
+    },
+    {
+      "file_offset": "0x13e9564",
+      "va": "0x13f1564",
+      "physical_code": "0x500ff05",
+      "name": "KEY_LANC_HOUSING"
+    },
+    {
+      "file_offset": "0x13e956c",
+      "va": "0x13f156c",
+      "physical_code": "0x500ff06",
+      "name": "KEY_LANC_LINE_HOUSINGMIC"
+    },
+    {
+      "file_offset": "0x13e9574",
+      "va": "0x13f1574",
+      "physical_code": "0x500ff07",
+      "name": "KEY_JACK_LANC_SPK_VIDEO_OUT"
+    },
+    {
+      "file_offset": "0x13e957c",
+      "va": "0x13f157c",
+      "physical_code": "0x6000001",
+      "name": "KEY_TP_TOUCH"
+    },
+    {
+      "file_offset": "0x13e9584",
+      "va": "0x13f1584",
+      "physical_code": "0x6000002",
+      "name": "KEY_TP_WATER"
+    },
+    {
+      "file_offset": "0x13e958c",
+      "va": "0x13f158c",
+      "physical_code": "0x6000081",
+      "name": "KEY_TP_RAW"
+    },
+    {
+      "file_offset": "0x13e9594",
+      "va": "0x13f1594",
+      "physical_code": "0x7000001",
+      "name": "KEY_USB_JACK"
+    },
+    {
+      "file_offset": "0x13e959c",
+      "va": "0x13f159c",
+      "physical_code": "0x7000002",
+      "name": "KEY_USB_APLUG"
+    },
+    {
+      "file_offset": "0x13e95a4",
+      "va": "0x13f15a4",
+      "physical_code": "0x7000003",
+      "name": "KEY_USB_BUILT_IN_JACK"
+    },
+    {
+      "file_offset": "0x13e95ac",
+      "va": "0x13f15ac",
+      "physical_code": "0x7000004",
+      "name": "KEY_USB_JACK_CHARGER"
+    },
+    {
+      "file_offset": "0x13e95b4",
+      "va": "0x13f15b4",
+      "physical_code": "0x8010001",
+      "name": "KEY_HDMI_JACK"
+    },
+    {
+      "file_offset": "0x13e95bc",
+      "va": "0x13f15bc",
+      "physical_code": "0xa000000",
+      "name": "KEY_JACK_PNTLT"
+    },
+    {
+      "file_offset": "0x13e95c4",
+      "va": "0x13f15c4",
+      "physical_code": "0xa000001",
+      "name": "KEY_TACT_PNTLT_MENU"
+    },
+    {
+      "file_offset": "0x13e95cc",
+      "va": "0x13f15cc",
+      "physical_code": "0xa000002",
+      "name": "KEY_TACT_PNTLT_SELF"
+    },
+    {
+      "file_offset": "0x13e95d4",
+      "va": "0x13f15d4",
+      "physical_code": "0xa000003",
+      "name": "KEY_JACK_PNTLT_AC"
+    },
+    {
+      "file_offset": "0x13e95dc",
+      "va": "0x13f15dc",
+      "physical_code": "0xa000004",
+      "name": "KEY_JACK_ASSY_HD_CABLE"
+    },
+    {
+      "file_offset": "0x13e95e4",
+      "va": "0x13f15e4",
+      "physical_code": "0xa000005",
+      "name": "KEY_JACK_ASSY_MULTIJACK_IN"
+    },
+    {
+      "file_offset": "0x13e95ec",
+      "va": "0x13f15ec",
+      "physical_code": "0xa000006",
+      "name": "KEY_JACK_PNTLT_AV_COMPOSITE"
+    },
+    {
+      "file_offset": "0x13e95f4",
+      "va": "0x13f15f4",
+      "physical_code": "0xa000007",
+      "name": "KEY_ERR_PNTLT"
+    },
+    {
+      "file_offset": "0x13e95fc",
+      "va": "0x13f15fc",
+      "physical_code": "0xa000008",
+      "name": "KEY_UM_CONNECTOR_FREEZE"
+    },
+    {
+      "file_offset": "0x13e9604",
+      "va": "0x13f1604",
+      "physical_code": "0xa000009",
+      "name": "KEY_UM_CONNECTOR_GUIDE_FRAME"
+    },
+    {
+      "file_offset": "0x13e960c",
+      "va": "0x13f160c",
+      "physical_code": "0xa00000a",
+      "name": "KEY_UM_CONNECTOR_JACK_REMOTE"
+    },
+    {
+      "file_offset": "0x13e9614",
+      "va": "0x13f1614",
+      "physical_code": "0xa00000b",
+      "name": "KEY_UM_CONNECTOR_JACK_UNSUPPORTED"
+    },
+    {
+      "file_offset": "0x13e961c",
+      "va": "0x13f161c",
+      "physical_code": "0xa00000c",
+      "name": "KEY_UM_CONNECTOR_PHOTO"
+    },
+    {
+      "file_offset": "0x13e9624",
+      "va": "0x13f1624",
+      "physical_code": "0xa00000d",
+      "name": "KEY_UM_CONNECTOR_SS"
+    },
+    {
+      "file_offset": "0x13e962c",
+      "va": "0x13f162c",
+      "physical_code": "0xa00000e",
+      "name": "KEY_UM_CONNECTOR_ZOOM_TELE"
+    },
+    {
+      "file_offset": "0x13e9634",
+      "va": "0x13f1634",
+      "physical_code": "0xa00000f",
+      "name": "KEY_UM_CONNECTOR_ZOOM_WIDE"
+    },
+    {
+      "file_offset": "0x13e963c",
+      "va": "0x13f163c",
+      "physical_code": "0xa000010",
+      "name": "KEY_UM_CONNECTOR_JACK_EXTENDED_LINE"
+    },
+    {
+      "file_offset": "0x13e9644",
+      "va": "0x13f1644",
+      "physical_code": "0xa000011",
+      "name": "KEY_UM_CONNECTOR_ZOOM"
+    },
+    {
+      "file_offset": "0x13e964c",
+      "va": "0x13f164c",
+      "physical_code": "0xa000012",
+      "name": "KEY_UM_CONNECTOR_JACK_AVR_LANC"
+    },
+    {
+      "file_offset": "0x13e9654",
+      "va": "0x13f1654",
+      "physical_code": "0xa000013",
+      "name": "KEY_UM_CONNECTOR_JACK_AV"
+    },
+    {
+      "file_offset": "0x13e965c",
+      "va": "0x13f165c",
+      "physical_code": "0xa000014",
+      "name": "KEY_UM_CONNECTOR_AEL"
+    },
+    {
+      "file_offset": "0x13e9664",
+      "va": "0x13f1664",
+      "physical_code": "0xa000015",
+      "name": "KEY_UM_CONNECTOR_AFMF"
+    },
+    {
+      "file_offset": "0x13e966c",
+      "va": "0x13f166c",
+      "physical_code": "0xa000016",
+      "name": "KEY_UM_CONNECTOR_AV"
+    },
+    {
+      "file_offset": "0x13e9674",
+      "va": "0x13f1674",
+      "physical_code": "0xa000017",
+      "name": "KEY_UM_CONNECTOR_CENTER"
+    },
+    {
+      "file_offset": "0x13e967c",
+      "va": "0x13f167c",
+      "physical_code": "0xa000018",
+      "name": "KEY_UM_CONNECTOR_DELETE"
+    },
+    {
+      "file_offset": "0x13e9684",
+      "va": "0x13f1684",
+      "physical_code": "0xa000019",
+      "name": "KEY_UM_CONNECTOR_DISP"
+    },
+    {
+      "file_offset": "0x13e968c",
+      "va": "0x13f168c",
+      "physical_code": "0xa00001a",
+      "name": "KEY_UM_CONNECTOR_DOWN"
+    },
+    {
+      "file_offset": "0x13e9694",
+      "va": "0x13f1694",
+      "physical_code": "0xa00001b",
+      "name": "KEY_UM_CONNECTOR_EXPOSURE"
+    },
+    {
+      "file_offset": "0x13e969c",
+      "va": "0x13f169c",
+      "physical_code": "0xa00001c",
+      "name": "KEY_UM_CONNECTOR_FN"
+    },
+    {
+      "file_offset": "0x13e96a4",
+      "va": "0x13f16a4",
+      "physical_code": "0xa00001d",
+      "name": "KEY_UM_CONNECTOR_FOCUS"
+    },
+    {
+      "file_offset": "0x13e96ac",
+      "va": "0x13f16ac",
+      "physical_code": "0xa00001e",
+      "name": "KEY_UM_CONNECTOR_JACK_WATER_HOUSING"
+    },
+    {
+      "file_offset": "0x13e96b4",
+      "va": "0x13f16b4",
+      "physical_code": "0xa00001f",
+      "name": "KEY_UM_CONNECTOR_LEFT"
+    },
+    {
+      "file_offset": "0x13e96bc",
+      "va": "0x13f16bc",
+      "physical_code": "0xa000020",
+      "name": "KEY_UM_CONNECTOR_MENU"
+    },
+    {
+      "file_offset": "0x13e96c4",
+      "va": "0x13f16c4",
+      "physical_code": "0xa000021",
+      "name": "KEY_UM_CONNECTOR_MODE"
+    },
+    {
+      "file_offset": "0x13e96cc",
+      "va": "0x13f16cc",
+      "physical_code": "0xa000022",
+      "name": "KEY_UM_CONNECTOR_PLAYBACK"
+    },
+    {
+      "file_offset": "0x13e96d4",
+      "va": "0x13f16d4",
+      "physical_code": "0xa000023",
+      "name": "KEY_UM_CONNECTOR_RIGHT"
+    },
+    {
+      "file_offset": "0x13e96dc",
+      "va": "0x13f16dc",
+      "physical_code": "0xa000024",
+      "name": "KEY_UM_CONNECTOR_UP"
+    },
+    {
+      "file_offset": "0x13e96e4",
+      "va": "0x13f16e4",
+      "physical_code": "0xa000025",
+      "name": "KEY_UM_CONNECTOR_HOUSING_ZOOM"
+    },
+    {
+      "file_offset": "0x13e96ec",
+      "va": "0x13f16ec",
+      "physical_code": "0xa000026",
+      "name": "KEY_UM_CONNECTOR_FOCUS_FAR"
+    },
+    {
+      "file_offset": "0x13e96f4",
+      "va": "0x13f16f4",
+      "physical_code": "0xa000027",
+      "name": "KEY_UM_CONNECTOR_FOCUS_NEAR"
+    },
+    {
+      "file_offset": "0x13e96fc",
+      "va": "0x13f16fc",
+      "physical_code": "0xa000028",
+      "name": "KEY_MI_VIDEOLIGHT_POWERMODE"
+    },
+    {
+      "file_offset": "0x13e9704",
+      "va": "0x13f1704",
+      "physical_code": "0xa000029",
+      "name": "KEY_UM_CONNECTOR_TC_RESET"
+    },
+    {
+      "file_offset": "0x13e970c",
+      "va": "0x13f170c",
+      "physical_code": "0xa00002a",
+      "name": "KEY_UM_CONNECTOR_APO_EXTENSION"
+    },
+    {
+      "file_offset": "0x13e9714",
+      "va": "0x13f1714",
+      "physical_code": "0xa00002b",
+      "name": "KEY_UM_CONNECTOR_JACK_REMOTE_3PIN"
+    },
+    {
+      "file_offset": "0x13e971c",
+      "va": "0x13f171c",
+      "physical_code": "0xa00002c",
+      "name": "KEY_UM_CONNECTOR_JACK_DI_BOX"
+    },
+    {
+      "file_offset": "0x13e9724",
+      "va": "0x13f1724",
+      "physical_code": "0xc000000",
+      "name": "KEY_MEDIA_REMOVABLEMEDIA1"
+    },
+    {
+      "file_offset": "0x13e972c",
+      "va": "0x13f172c",
+      "physical_code": "0xc000001",
+      "name": "KEY_MEDIA_REMOVABLEMEDIA2"
+    },
+    {
+      "file_offset": "0x13e9734",
+      "va": "0x13f1734",
+      "physical_code": "0xc000002",
+      "name": "KEY_MEDIA_REMOVABLEMEDIA3"
+    },
+    {
+      "file_offset": "0x13e973c",
+      "va": "0x13f173c",
+      "physical_code": "0xc000003",
+      "name": "KEY_MEDIA_INOUT00"
+    },
+    {
+      "file_offset": "0x13e9744",
+      "va": "0x13f1744",
+      "physical_code": "0xc000004",
+      "name": "KEY_MEDIA_INOUT01"
+    },
+    {
+      "file_offset": "0x13e974c",
+      "va": "0x13f174c",
+      "physical_code": "0xc000005",
+      "name": "KEY_MEDIA_INOUT02"
+    },
+    {
+      "file_offset": "0x13e9754",
+      "va": "0x13f1754",
+      "physical_code": "0xc000006",
+      "name": "KEY_MEDIA_INOUT03"
+    },
+    {
+      "file_offset": "0x13e975c",
+      "va": "0x13f175c",
+      "physical_code": "0xc000007",
+      "name": "KEY_MEDIA_INOUT04"
+    },
+    {
+      "file_offset": "0x13e9764",
+      "va": "0x13f1764",
+      "physical_code": "0xc000008",
+      "name": "KEY_MEDIA_INOUT05"
+    },
+    {
+      "file_offset": "0x13e976c",
+      "va": "0x13f176c",
+      "physical_code": "0xc000009",
+      "name": "KEY_MEDIA_INOUT06"
+    },
+    {
+      "file_offset": "0x13e9774",
+      "va": "0x13f1774",
+      "physical_code": "0xc00000a",
+      "name": "KEY_MEDIA_INOUT07"
+    },
+    {
+      "file_offset": "0x13e977c",
+      "va": "0x13f177c",
+      "physical_code": "0xc00000b",
+      "name": "KEY_MEDIA_INOUT08"
+    },
+    {
+      "file_offset": "0x13e9784",
+      "va": "0x13f1784",
+      "physical_code": "0xc00000c",
+      "name": "KEY_MEDIA_INOUT09"
+    },
+    {
+      "file_offset": "0x13e978c",
+      "va": "0x13f178c",
+      "physical_code": "0xc00000d",
+      "name": "KEY_MEDIA_INOUT10"
+    },
+    {
+      "file_offset": "0x13e9794",
+      "va": "0x13f1794",
+      "physical_code": "0xc00000e",
+      "name": "KEY_MEDIA_INOUT11"
+    },
+    {
+      "file_offset": "0x13e979c",
+      "va": "0x13f179c",
+      "physical_code": "0xc00000f",
+      "name": "KEY_MEDIA_INOUT12"
+    },
+    {
+      "file_offset": "0x13e97a4",
+      "va": "0x13f17a4",
+      "physical_code": "0xc000010",
+      "name": "KEY_MEDIA_INOUT13"
+    },
+    {
+      "file_offset": "0x13e97ac",
+      "va": "0x13f17ac",
+      "physical_code": "0xc000011",
+      "name": "KEY_MEDIA_INOUT14"
+    },
+    {
+      "file_offset": "0x13e97b4",
+      "va": "0x13f17b4",
+      "physical_code": "0xc000012",
+      "name": "KEY_MEDIA_INOUT15"
+    },
+    {
+      "file_offset": "0x13e97bc",
+      "va": "0x13f17bc",
+      "physical_code": "0xd000000",
+      "name": "KEY_MPRCTRL_EJECT"
+    },
+    {
+      "file_offset": "0x13e97c4",
+      "va": "0x13f17c4",
+      "physical_code": "0xd000001",
+      "name": "KEY_MPRCTRL_DUBBING"
+    },
+    {
+      "file_offset": "0x13e97cc",
+      "va": "0x13f17cc",
+      "physical_code": "0xd000002",
+      "name": "KEY_MPRCTRL_PLAY"
+    },
+    {
+      "file_offset": "0x13e97d4",
+      "va": "0x13f17d4",
+      "physical_code": "0xd000003",
+      "name": "KEY_MPRCTRL_TRAYCLOSE"
+    },
+    {
+      "file_offset": "0x13e97dc",
+      "va": "0x13f17dc",
+      "physical_code": "0xd000004",
+      "name": "KEY_MPRCTRL_ALO"
+    },
+    {
+      "file_offset": "0x13e97e4",
+      "va": "0x13f17e4",
+      "physical_code": "0xe000000",
+      "name": "KEY_CEC_ENTER"
+    },
+    {
+      "file_offset": "0x13e97ec",
+      "va": "0x13f17ec",
+      "physical_code": "0xe000001",
+      "name": "KEY_CEC_CURSOR_UP"
+    },
+    {
+      "file_offset": "0x13e97f4",
+      "va": "0x13f17f4",
+      "physical_code": "0xe000002",
+      "name": "KEY_CEC_CURSOR_DOWN"
+    },
+    {
+      "file_offset": "0x13e97fc",
+      "va": "0x13f17fc",
+      "physical_code": "0xe000003",
+      "name": "KEY_CEC_CURSOR_LEFT"
+    },
+    {
+      "file_offset": "0x13e9804",
+      "va": "0x13f1804",
+      "physical_code": "0xe000004",
+      "name": "KEY_CEC_CURSOR_RIGHT"
+    },
+    {
+      "file_offset": "0x13e980c",
+      "va": "0x13f180c",
+      "physical_code": "0xe000009",
+      "name": "KEY_CEC_ROOT_MENU"
+    },
+    {
+      "file_offset": "0x13e9814",
+      "va": "0x13f1814",
+      "physical_code": "0xe00000a",
+      "name": "KEY_CEC_SETUP_MENU"
+    },
+    {
+      "file_offset": "0x13e981c",
+      "va": "0x13f181c",
+      "physical_code": "0xe00000b",
+      "name": "KEY_CEC_CONTENTS_MENU"
+    },
+    {
+      "file_offset": "0x13e9824",
+      "va": "0x13f1824",
+      "physical_code": "0xe00000d",
+      "name": "KEY_CEC_EXIT"
+    },
+    {
+      "file_offset": "0x13e982c",
+      "va": "0x13f182c",
+      "physical_code": "0xe00002c",
+      "name": "KEY_CEC_CLEAR"
+    },
+    {
+      "file_offset": "0x13e9834",
+      "va": "0x13f1834",
+      "physical_code": "0xe000044",
+      "name": "KEY_CEC_PLAY"
+    },
+    {
+      "file_offset": "0x13e983c",
+      "va": "0x13f183c",
+      "physical_code": "0xe000045",
+      "name": "KEY_CEC_STOP"
+    },
+    {
+      "file_offset": "0x13e9844",
+      "va": "0x13f1844",
+      "physical_code": "0xe000046",
+      "name": "KEY_CEC_PAUSE"
+    },
+    {
+      "file_offset": "0x13e984c",
+      "va": "0x13f184c",
+      "physical_code": "0xe000048",
+      "name": "KEY_CEC_REWIND"
+    },
+    {
+      "file_offset": "0x13e9854",
+      "va": "0x13f1854",
+      "physical_code": "0xe000049",
+      "name": "KEY_CEC_FASTFORWARD"
+    },
+    {
+      "file_offset": "0x13e985c",
+      "va": "0x13f185c",
+      "physical_code": "0xe00004b",
+      "name": "KEY_CEC_FORWARD"
+    },
+    {
+      "file_offset": "0x13e9864",
+      "va": "0x13f1864",
+      "physical_code": "0xe00004c",
+      "name": "KEY_CEC_BACKWARD"
+    },
+    {
+      "file_offset": "0x13e986c",
+      "va": "0x13f186c",
+      "physical_code": "0xe0000ff",
+      "name": "KEY_CEC_OFF"
+    },
+    {
+      "file_offset": "0x13e9874",
+      "va": "0x13f1874",
+      "physical_code": "0xe010002",
+      "name": "KEY_CEC_STANDBY"
+    },
+    {
+      "file_offset": "0x13e987c",
+      "va": "0x13f187c",
+      "physical_code": "0xe010003",
+      "name": "KEY_CEC_TV_DETECT"
+    },
+    {
+      "file_offset": "0x13e9884",
+      "va": "0x13f1884",
+      "physical_code": "0xf000003",
+      "name": "KEY_OTHER_VER_GRIP_RELEASE_LOCK"
+    },
+    {
+      "file_offset": "0x13e988c",
+      "va": "0x13f188c",
+      "physical_code": "0xf000004",
+      "name": "KEY_RELEASE_AFON"
+    },
+    {
+      "file_offset": "0x13e9894",
+      "va": "0x13f1894",
+      "physical_code": "0x10000000",
+      "name": "KEY_OTHER_KURU_LEFT"
+    },
+    {
+      "file_offset": "0x13e989c",
+      "va": "0x13f189c",
+      "physical_code": "0x10000001",
+      "name": "KEY_OTHER_KURU_RIGHT"
+    },
+    {
+      "file_offset": "0x13e98a4",
+      "va": "0x13f18a4",
+      "physical_code": "0x10000003",
+      "name": "KEY_OTHER_WHEEL_LEFT"
+    },
+    {
+      "file_offset": "0x13e98ac",
+      "va": "0x13f18ac",
+      "physical_code": "0x10000004",
+      "name": "KEY_OTHER_WHEEL_RIGHT"
+    },
+    {
+      "file_offset": "0x13e98b4",
+      "va": "0x13f18b4",
+      "physical_code": "0x10000005",
+      "name": "KEY_OTHER_KURU2_LEFT"
+    },
+    {
+      "file_offset": "0x13e98bc",
+      "va": "0x13f18bc",
+      "physical_code": "0x10000006",
+      "name": "KEY_OTHER_KURU2_RIGHT"
+    },
+    {
+      "file_offset": "0x13e98c4",
+      "va": "0x13f18c4",
+      "physical_code": "0x10000007",
+      "name": "KEY_OTHER_RING_LEFT"
+    },
+    {
+      "file_offset": "0x13e98cc",
+      "va": "0x13f18cc",
+      "physical_code": "0x10000008",
+      "name": "KEY_OTHER_RING_RIGHT"
+    },
+    {
+      "file_offset": "0x13e98d4",
+      "va": "0x13f18d4",
+      "physical_code": "0x10000009",
+      "name": "KEY_OTHER_WHEEL2_LEFT"
+    },
+    {
+      "file_offset": "0x13e98dc",
+      "va": "0x13f18dc",
+      "physical_code": "0x1000000a",
+      "name": "KEY_OTHER_WHEEL2_RIGHT"
+    },
+    {
+      "file_offset": "0x13e98e4",
+      "va": "0x13f18e4",
+      "physical_code": "0x1000000b",
+      "name": "KEY_OTHER_VER_GRIP_WHEEL_LEFT"
+    },
+    {
+      "file_offset": "0x13e98ec",
+      "va": "0x13f18ec",
+      "physical_code": "0x1000000c",
+      "name": "KEY_OTHER_VER_GRIP_WHEEL_RIGHT"
+    },
+    {
+      "file_offset": "0x13e98f4",
+      "va": "0x13f18f4",
+      "physical_code": "0x1000000d",
+      "name": "KEY_OTHER_VER_GRIP_WHEEL2_LEFT"
+    },
+    {
+      "file_offset": "0x13e98fc",
+      "va": "0x13f18fc",
+      "physical_code": "0x1000000e",
+      "name": "KEY_OTHER_VER_GRIP_WHEEL2_RIGHT"
+    },
+    {
+      "file_offset": "0x13e9904",
+      "va": "0x13f1904",
+      "physical_code": "0x1000000f",
+      "name": "KEY_OTHER_WHEEL3_LEFT"
+    },
+    {
+      "file_offset": "0x13e990c",
+      "va": "0x13f190c",
+      "physical_code": "0x10000010",
+      "name": "KEY_OTHER_WHEEL3_RIGHT"
+    },
+    {
+      "file_offset": "0x13e9914",
+      "va": "0x13f1914",
+      "physical_code": "0x10000011",
+      "name": "KEY_OTHER_KURU"
+    },
+    {
+      "file_offset": "0x13e991c",
+      "va": "0x13f191c",
+      "physical_code": "0x10000012",
+      "name": "KEY_OTHER_KURU2"
+    },
+    {
+      "file_offset": "0x13e9924",
+      "va": "0x13f1924",
+      "physical_code": "0x10000013",
+      "name": "KEY_OTHER_RING"
+    },
+    {
+      "file_offset": "0x13e992c",
+      "va": "0x13f192c",
+      "physical_code": "0x10000014",
+      "name": "KEY_OTHER_VER_GRIP_WHEEL"
+    },
+    {
+      "file_offset": "0x13e9934",
+      "va": "0x13f1934",
+      "physical_code": "0x10000015",
+      "name": "KEY_OTHER_VER_GRIP_WHEEL2"
+    },
+    {
+      "file_offset": "0x13e993c",
+      "va": "0x13f193c",
+      "physical_code": "0x10000016",
+      "name": "KEY_OTHER_WHEEL"
+    },
+    {
+      "file_offset": "0x13e9944",
+      "va": "0x13f1944",
+      "physical_code": "0x10000017",
+      "name": "KEY_OTHER_WHEEL2"
+    },
+    {
+      "file_offset": "0x13e994c",
+      "va": "0x13f194c",
+      "physical_code": "0x10000018",
+      "name": "KEY_OTHER_WHEEL3"
+    },
+    {
+      "file_offset": "0x13e9954",
+      "va": "0x13f1954",
+      "physical_code": "0x10000019",
+      "name": "KEY_OTHER_UM_CONNECTOR_WHEEL"
+    },
+    {
+      "file_offset": "0x13e995c",
+      "va": "0x13f195c",
+      "physical_code": "0x1000001a",
+      "name": "KEY_OTHER_UM_CONNECTOR_WHEEL2"
+    },
+    {
+      "file_offset": "0x13e9964",
+      "va": "0x13f1964",
+      "physical_code": "0x1000001b",
+      "name": "KEY_OTHER_RING2"
+    },
+    {
+      "file_offset": "0x13e996c",
+      "va": "0x13f196c",
+      "physical_code": "0x11000000",
+      "name": "KEY_AGENT_ZOOM_TELE"
+    },
+    {
+      "file_offset": "0x13e9974",
+      "va": "0x13f1974",
+      "physical_code": "0x11000001",
+      "name": "KEY_AGENT_ZOOM_WIDE"
+    },
+    {
+      "file_offset": "0x13e997c",
+      "va": "0x13f197c",
+      "physical_code": "0x12000001",
+      "name": "KEY_LENS_DETACH"
+    },
+    {
+      "file_offset": "0x13e9984",
+      "va": "0x13f1984",
+      "physical_code": "0x12000002",
+      "name": "KEY_LENS_ATTACH"
+    },
+    {
+      "file_offset": "0x13e998c",
+      "va": "0x13f198c",
+      "physical_code": "0x12000003",
+      "name": "KEY_LENS_FOCUS_RING"
+    },
+    {
+      "file_offset": "0x13e9994",
+      "va": "0x13f1994",
+      "physical_code": "0x12000004",
+      "name": "KEY_LENS_ZOOM_LEVER"
+    },
+    {
+      "file_offset": "0x13e999c",
+      "va": "0x13f199c",
+      "physical_code": "0x12000005",
+      "name": "KEY_LENS_ZOOM_RING"
+    },
+    {
+      "file_offset": "0x13e99a4",
+      "va": "0x13f19a4",
+      "physical_code": "0x12000006",
+      "name": "KEY_LENS_APERTURE_RING"
+    },
+    {
+      "file_offset": "0x13e99ac",
+      "va": "0x13f19ac",
+      "physical_code": "0x12000007",
+      "name": "KEY_LENS_APERTURE_RING_POS"
+    },
+    {
+      "file_offset": "0x13e99b4",
+      "va": "0x13f19b4",
+      "physical_code": "0x12000008",
+      "name": "KEY_LENS_FUNCTION_RING"
+    },
+    {
+      "file_offset": "0x13e99bc",
+      "va": "0x13f19bc",
+      "physical_code": "0x13000000",
+      "name": "KEY_OTHER_GYRO_ANGLE"
+    },
+    {
+      "file_offset": "0x13e99c4",
+      "va": "0x13f19c4",
+      "physical_code": "0x13000001",
+      "name": "KEY_OTHER_ROLL_QUAD_POSITION"
+    },
+    {
+      "file_offset": "0x13e99cc",
+      "va": "0x13f19cc",
+      "physical_code": "0x14000102",
+      "name": "INP_HOTSHOE_SAT_STEREOMIC"
+    },
+    {
+      "file_offset": "0x13e99d4",
+      "va": "0x13f19d4",
+      "physical_code": "0x14000303",
+      "name": "INP_HOTSHOE_SAT_EVF"
+    },
+    {
+      "file_offset": "0x13e99dc",
+      "va": "0x13f19dc",
+      "physical_code": "0x14000404",
+      "name": "INP_HOTSHOE_SAT_STROBE"
+    },
+    {
+      "file_offset": "0x13e99e4",
+      "va": "0x13f19e4",
+      "physical_code": "0x15000001",
+      "name": "KEY_EXTEVF_EYE_CONTACT"
+    },
+    {
+      "file_offset": "0x13e99ec",
+      "va": "0x13f19ec",
+      "physical_code": "0x15000002",
+      "name": "KEY_EXTEVF_SLI_FINDER_LCD"
+    },
+    {
+      "file_offset": "0x13e99f4",
+      "va": "0x13f19f4",
+      "physical_code": "0x17000001",
+      "name": "KEY_ILLUMI_LEVEL_EVF"
+    },
+    {
+      "file_offset": "0x13e99fc",
+      "va": "0x13f19fc",
+      "physical_code": "0x17000002",
+      "name": "KEY_ILLUMI_LEVEL_PANEL"
+    },
+    {
+      "file_offset": "0x13e9a04",
+      "va": "0x13f1a04",
+      "physical_code": "0x17000003",
+      "name": "KEY_ILLUMI_LEVEL_EXTEVF"
+    },
+    {
+      "file_offset": "0x13e9a0c",
+      "va": "0x13f1a0c",
+      "physical_code": "0x18000001",
+      "name": "KEY_DIGITALLEVEL_ANGLE"
+    },
+    {
+      "file_offset": "0x13e9a14",
+      "va": "0x13f1a14",
+      "physical_code": "0x19000001",
+      "name": "KEY_WIRELESS_POWER_PAD"
+    },
+    {
+      "file_offset": "0x13e9a1c",
+      "va": "0x13f1a1c",
+      "physical_code": "0x1a000001",
+      "name": "KEY_REMOTE_AEL"
+    },
+    {
+      "file_offset": "0x13e9a24",
+      "va": "0x13f1a24",
+      "physical_code": "0x1a000002",
+      "name": "KEY_REMOTE_AFL"
+    },
+    {
+      "file_offset": "0x13e9a2c",
+      "va": "0x13f1a2c",
+      "physical_code": "0x1a000003",
+      "name": "KEY_REMOTE_EXP_COMP_MINUS"
+    },
+    {
+      "file_offset": "0x13e9a34",
+      "va": "0x13f1a34",
+      "physical_code": "0x1a000004",
+      "name": "KEY_REMOTE_EXP_COMP_PLUS"
+    },
+    {
+      "file_offset": "0x13e9a3c",
+      "va": "0x13f1a3c",
+      "physical_code": "0x1a000005",
+      "name": "KEY_REMOTE_FEL"
+    },
+    {
+      "file_offset": "0x13e9a44",
+      "va": "0x13f1a44",
+      "physical_code": "0x1a000006",
+      "name": "KEY_REMOTE_FLASH_COMP_MINUS"
+    },
+    {
+      "file_offset": "0x13e9a4c",
+      "va": "0x13f1a4c",
+      "physical_code": "0x1a000007",
+      "name": "KEY_REMOTE_FLASH_COMP_PLUS"
+    },
+    {
+      "file_offset": "0x13e9a54",
+      "va": "0x13f1a54",
+      "physical_code": "0x1a000008",
+      "name": "KEY_REMOTE_FNUM_MINUS"
+    },
+    {
+      "file_offset": "0x13e9a5c",
+      "va": "0x13f1a5c",
+      "physical_code": "0x1a000009",
+      "name": "KEY_REMOTE_FNUM_PLUS"
+    },
+    {
+      "file_offset": "0x13e9a64",
+      "va": "0x13f1a64",
+      "physical_code": "0x1a00000a",
+      "name": "KEY_REMOTE_ISO_MINUS"
+    },
+    {
+      "file_offset": "0x13e9a6c",
+      "va": "0x13f1a6c",
+      "physical_code": "0x1a00000b",
+      "name": "KEY_REMOTE_ISO_PLUS"
+    },
+    {
+      "file_offset": "0x13e9a74",
+      "va": "0x13f1a74",
+      "physical_code": "0x1a00000c",
+      "name": "KEY_REMOTE_MOV_REC"
+    },
+    {
+      "file_offset": "0x13e9a7c",
+      "va": "0x13f1a7c",
+      "physical_code": "0x1a00000d",
+      "name": "KEY_REMOTE_S1"
+    },
+    {
+      "file_offset": "0x13e9a84",
+      "va": "0x13f1a84",
+      "physical_code": "0x1a00000e",
+      "name": "KEY_REMOTE_S2"
+    },
+    {
+      "file_offset": "0x13e9a8c",
+      "va": "0x13f1a8c",
+      "physical_code": "0x1a00000f",
+      "name": "KEY_REMOTE_SS_MINUS"
+    },
+    {
+      "file_offset": "0x13e9a94",
+      "va": "0x13f1a94",
+      "physical_code": "0x1a000010",
+      "name": "KEY_REMOTE_SS_PLUS"
+    },
+    {
+      "file_offset": "0x13e9a9c",
+      "va": "0x13f1a9c",
+      "physical_code": "0x1a000011",
+      "name": "KEY_REMOTE_ZOOM_TELE"
+    },
+    {
+      "file_offset": "0x13e9aa4",
+      "va": "0x13f1aa4",
+      "physical_code": "0x1a000012",
+      "name": "KEY_REMOTE_ZOOM_WIDE"
+    },
+    {
+      "file_offset": "0x13e9aac",
+      "va": "0x13f1aac",
+      "physical_code": "0x1a000013",
+      "name": "KEY_REMOTE_INTERVAL_REC"
+    },
+    {
+      "file_offset": "0x13e9ab4",
+      "va": "0x13f1ab4",
+      "physical_code": "0x1a000014",
+      "name": "KEY_REMOTE_PC_MOV_REC"
+    },
+    {
+      "file_offset": "0x13e9abc",
+      "va": "0x13f1abc",
+      "physical_code": "0x1a000015",
+      "name": "KEY_REMOTE_AUDIO_REC"
+    }
+  ]
+}

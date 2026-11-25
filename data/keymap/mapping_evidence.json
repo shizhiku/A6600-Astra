@@ -1,0 +1,64 @@
+{
+  "libObj_sha256": "ebb6cd0475ebfdb592fb7bdd2a54df8bc694e2e0520733fb84d7dfd31c84038a",
+  "viewUnified2_sha256": "637457e062375b68d69381bedfb7761ce878c6092489e912da9842696a928e7f",
+  "physical_name_table": [
+    {
+      "va": "0x13f0924",
+      "key": "0x1ab",
+      "name": "KEY_TACT_MENU"
+    },
+    {
+      "va": "0x13f092c",
+      "key": "0x1ac",
+      "name": "KEY_TACT_ENTER"
+    }
+  ],
+  "config_table_va": "0x95fa5c",
+  "config_entry_size": "0x14",
+  "config_entries": [
+    {
+      "index": 0,
+      "va": "0x95fa5c",
+      "list_va": "0x96009c",
+      "callback_thumb": "0x2bdba5",
+      "count": 212,
+      "init_flag": 0,
+      "predicate": "0x0"
+    },
+    {
+      "index": 2,
+      "va": "0x95fa84",
+      "list_va": "0x95ff94",
+      "callback_thumb": "0x2bd9e5",
+      "count": 6,
+      "init_flag": 0,
+      "predicate": "0x0"
+    }
+  ],
+  "mapping_rows": [
+    {
+      "key": "0x1ab",
+      "va": "0x9600fc",
+      "file_offset": "0x9580fc",
+      "index": 8,
+      "words": [
+        "0x1ab",
+        "0x15010100",
+        "0x7ffffffe"
+      ],
+      "raw": "ab01000000010115feffff7f"
+    },
+    {
+      "key": "0x1ac",
+      "va": "0x95ffa0",
+      "file_offset": "0x957fa0",
+      "index": 1,
+      "words": [
+        "0x1ac",
+        "0x15010050",
+        "0x7ffffffe"
+      ],
+      "raw": "ac01000050000115feffff7f"
+    }
+  ]
+}
